@@ -1,0 +1,113 @@
+---
+title: "BIO 539 Annotating Cryptasterina"
+author: "Jacob Green"
+date: "4/22/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Why annotate two sea star genomes: Hystera and Pentagona
+
+Echinoderms are unique in the tree of life when it comes to diversity of lifecycles and modes of reproduction. Across the phylum we find everything from planktotrophy to lecithotrophy and all the nuances in between. Within *Echinodermata*, *Asteroidea*, or Sea stars, exhibit a stunning array of processes when it comes to modes of development, parental investment, larval dispersal, and morphological diversity. On the Austrailian coastline of south east Queensland near Statue Bay two species of Sea star (*Cryptasterina hystera* and *Cryptasterina pentagona*) exhibit a striking and recent divergence in reproductive mode. These two species are morphologically identical, only distinguishable through molecular data and a reproductive period where you will find larvae brooding inside *C. hystera*. The ancestral line of this genus are broadcast spawners and have planktotrophic larvae, but very recently in evolutionary history *C. hystera* began retaining its larvae creating a reproductive rift between itself and *C. pentagona*. In 2019, Dr. Jon Puritz traveled to Statue Bay, Queensland to start a pilot study for defining the molecular dynamics of this shift in reproductive mode. We collected tissue samples for the two species and sequenced nanopore, DNA, and RNA reads. We generated a genome assembly for each species and the scope of this project is to annotate those two assemblies. These annotations will inform preliminary research into the molecular basis of shifting reproductive modes in closely related cogener species of sea stars. 
+
+## Process of Annotation
+
+Names are important, as names give meaning and in many cases derive the function of a thing. This is no different for genomes. Annotations are the descriptions of structural and functional regions of genomic sequences. Annotating open reading frames (ORF), coding and noncoding regions, high repetitive regions, transposable elements, and other functional elements of genomes are integral to translating genetic sequences into data points that can inform research. There are two stages to the process of annotation 1) alignment/mapping 2) gene prediction/naming. Alignment involves matching your seqeuence reads to the genome and mapping involves assigning quality to how the reads matched, where they match to on the genome, and the length of the matched fragment. For gene prediction and naming we take those aligned mapped fragments and align them to sequences in databases that have been curated. These curated databases hold a plethora of information that can then be collated and used in a variety of ways. There are a multitude of programs that can be leveraged to do both. In the scope of this project we will be using QUAST, MAKER, BRAKER2 for these processes. 
+
+## Workflow
+
+How are we structuring this annotation process?
+
+<insert workflow here>
+
+So what do each of the programs we are using do?
+
+### QUAST
+
+QUAST evaluates genome asemblies through mapping.
+
+QUAST uses the following for analysis: 
+
+* [BWA](https://github.com/lh3/bwa)
+* [bedtools](http://bedtools.readthedocs.io/)
+* [Minimap2](https://github.com/lh3/minimap2)
+* [Genemark-ES](http://exon.gatech.edu/GeneMark/gmes_instructions.html)
+* [Barrnap](https://github.com/tseemann/barrnap)
+* [BUSCO](http://busco.ezlab.org/)
+
+For visualization:
+* [Icarus](http://quast.sourceforge.net/icarus)
+* [Circos](http://circos.ca/)
+
+### MAKER
+
+MAKER is a pipeline for genome annotation that uses existing databases to generate expressed sequence tag (EST) alignments and protein homology. To complete that goal MAKER follows some steps:
+
+* Identifies and masks out repeat elements 
+* Aligns ESTs to the genome
+* Aligns proteins to the genome
+* Produces *ab initio* gene predictions
+* Synthesizes into final annotations
+* Produces quality-values for downstream annotation
+
+
+MAKER uses the following for annotation: 
+
+* [Perl](https://github.com/tseemann/barrnap)
+* [SNAP](http://homepage.mac.com/iankorf/)
+* [RepeatMasker](http://www.repeatmasker.org/)
+* [Exonerate](http://www.ebi.ac.uk/~guy/exonerate/)
+* [NCBI BLAST](http://www.ncbi.nlm.nih.gov/Ftp/)
+* [Augustus](http://augustus.gobics.de/)
+* [GeneMark-ES](http://exon.gatech.edu/GeneMark/gmes_instructions.html)
+* [FGENESH](http://www.softberry.com/)
+
+### BRAKER2 
+
+BRAKER2 is another "annotation pipeline"" but relies on fully automated training of gene prediction tools. 
+
+## Making working directories, locating assemblies, and linking files
+
+Jon gave me the location of the files and assemblies
+
+## Using Bioconda: the good, the bad, the ugly
+
+## Weird thought of using dammit?
+
+[Dammit](https://dammit.readthedocs.io/en/refactor-1.0/) is a program that I have used in the past for de novo transcriptome assemblies. It provides a thorough annotation by leveraging 
+
+## QUASTing for quality
+
+QUAST (QUality ASsessment Tool) is a neat program that I initially found to assess the assemblies. By digging through the [manual](http://quast.sourceforge.net/docs/manual.html) I discovered that there is a ton more functionality to this program from gene finding to generation circos plots to visualize your data. 
+
+```{bash eval=FALSE, include=FALSE}
+python /home/jgreen/miniconda3/envs/quast/bin/quast.py pentagona_assemblyV50.fasta --eukaryote --lar
+ge --k-mer-stats --rna-finding --pe1 trimmed.F.fq.gz --pe2 trimmed.R.fq.gz --nanopore nanopore.filtered.trimmed.fq.gz --threads 12
+```
+
+It was taking quite a long time, which is expected because it is aligning not only the trimmed forward and reverse reads but also the nanopore reads. Making so many .sam and.bam files quickly filled up space. It didn't help that QUAST had to rename the forward and reverse reads ( = 64 GB) and also generating two directories that store the same information in a quast/latest/ and quast/results directory. I had two whole directories filled with 1000 GB of .sam and .bam files, so the program ran out of memory.
+
+To circumvent this issue I dug into the quast manual a bit more. There are three arguments of interest that I will be adding (--min-contig 1000 --space-efficient --conserved-genes-finding). 
+
+```{bash eval=FALSE, include=FALSE}
+python /home/jgreen/miniconda3/envs/quast/bin/quast.py pentagona_assemblyV50.fasta --eukaryote --large --k-mer-stats --rna-finding --min-contig 1000 --space-efficient --conserved-genes-finding --pe1 trimmed.F.fq.gz --pe2 trimmed.R.fq.gz --nanopore nanopore.filtered.trimmed.fq.gz --threads 12 
+```
+
+Yet, again though I ran into another space issue. This is a problem when workiong on servers with limited space. The inability to run programs that either are not optimized for large genomes or do not properly take into consideration the memory footprint of smaller working labs decreases the efficiency of a program. I will try taking out the nanopore reads and running. 
+
+```{bash eval=FALSE, include=FALSE}
+python /home/jgreen/miniconda3/envs/quast/bin/quast.py pentagona_assemblyV49.fasta --eukaryote --large --k-mer-stats --rna-finding --min-contig 1000 --space-efficient --conserved-genes-finding --pe1 trimmed.F.fq.gz --pe2 trimmed.R.fq.gz --threads 12 
+```
+
+No luck on this run either. For the time being we will suspend using QUAST for quality assesment.
+
+## Repeat Masking
+
+## Maker 
+
+## Braker
+
+## References

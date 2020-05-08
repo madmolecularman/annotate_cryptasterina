@@ -1,0 +1,9 @@
+{
+    "path" : "~/cryptasterina/annotate_crypt",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
