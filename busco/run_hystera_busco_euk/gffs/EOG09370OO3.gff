@@ -1,0 +1,37 @@
+contig_3390_segment0	AUGUSTUS	gene	2579078	2592414	0.01	-	.	g1
+contig_3390_segment0	AUGUSTUS	transcript	2579078	2592414	0.01	-	.	g1.t1
+contig_3390_segment0	AUGUSTUS	exon	2579078	2579430	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	stop_codon	2579271	2579273	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	intron	2579431	2579508	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	intron	2579560	2581701	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	intron	2581926	2584143	0.02	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	intron	2584247	2586557	0.13	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	intron	2586655	2591075	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	intron	2591186	2592228	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	CDS	2579271	2579430	0.01	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	CDS	2579509	2579559	0.01	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	exon	2579509	2579559	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	CDS	2581702	2581925	0.85	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	exon	2581702	2581925	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	CDS	2584144	2584246	0.02	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	exon	2584144	2584246	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	CDS	2586558	2586654	0.04	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	exon	2586558	2586654	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	CDS	2591076	2591185	0.01	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	exon	2591076	2591185	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	CDS	2592229	2592242	0.02	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	exon	2592229	2592414	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	start_codon	2592240	2592242	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	tss	2592414	2592414	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	protein_match	2579283	2579411	2.79	-	0	target "unknown_H[1..43]"; target_start 206; transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	protein_match	2579550	2579559	2.37	-	1	target "unknown_G[10..13]"; target_start 173; transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	protein_match	2581702	2581730	3.41	-	0	target "unknown_G[1..10]"; target_start 173; transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	protein_match	2581734	2581814	5.81	-	0	target "unknown_F[1..27]"; target_start 145; transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	protein_match	2581815	2581925	6.71	-	0	target "unknown_E[19..55]"; target_start 90; transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	protein_match	2584144	2584197	5.5	-	0	target "unknown_E[1..18]"; target_start 90; transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	protein_match	2584207	2584246	6.26	-	1	target "unknown_D[1..14]"; target_start 73; transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	protein_match	2586558	2586559	1	-	0	target "unknown_D[1..1]"; target_start 73; transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	protein_match	2586560	2586613	4.54	-	0	target "unknown_C[1..18]"; target_start 55; transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	protein_match	2586620	2586654	5.62	-	2	target "unknown_B[6..17]"; target_start 36; transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	protein_match	2591076	2591091	5.08	-	0	target "unknown_B[1..6]"; target_start 36; transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	protein_match	2591095	2591160	4.56	-	0	target "unknown_A[1..22]"; target_start 13; transcript_id "g1.t1"; gene_id "g1";

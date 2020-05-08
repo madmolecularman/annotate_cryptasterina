@@ -1,0 +1,50 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[0..70]--> unknown_A (28) <--[0..3]--> unknown_B (25) <--[0..1]--> unknown_C (62) <--[0..53]--
+# fly version. Using default transition matrix.
+# Looks like contig_2195_pilon_pilon_pilonpentagona_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 20978, name = contig_2195_pilon_pilon_pilon) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+contig_2195_pilon_pilon_pilon	AUGUSTUS	gene	496617	514315	0.01	-	.	g1
+contig_2195_pilon_pilon_pilon	AUGUSTUS	transcript	496617	514315	0.01	-	.	g1.t1
+contig_2195_pilon_pilon_pilon	AUGUSTUS	exon	496617	497094	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	stop_codon	496830	496832	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	intron	497095	497151	0.43	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	intron	497334	497802	0.2	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	intron	497941	498002	0.83	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	intron	498137	498731	0.78	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	intron	498897	503116	0.09	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	intron	503193	514166	0.13	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	CDS	496830	497094	0.43	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	CDS	497152	497333	0.13	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	exon	497152	497333	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	CDS	497803	497940	0.65	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	exon	497803	497940	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	CDS	498003	498136	0.72	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	exon	498003	498136	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	CDS	498732	498896	0.32	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	exon	498732	498896	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	CDS	503117	503192	0.13	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	exon	503117	503192	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	CDS	514167	514277	0.23	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	exon	514167	514315	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	start_codon	514275	514277	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2195_pilon_pilon_pilon	AUGUSTUS	tss	514315	514315	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MPLLKFITNVPESQIACDVELKLSSKLKECITLWDEQAEHCDEILIFAEKSEFGQKLEIRYDGTDFPMPISEVPQLKR
+# QNNLAINLFCWDKGEVIIHYIRGQYGDIPRINTMLIKEEGKYRGPAHSPCNLKLRLNPKTMTITVVFHNLRGYDSHILMQGISKLRFIDSAQFLLTSL
+# DRLVAANSPKTFKITAQYEPDNQYLFIEKGMREYGDRCHSSTDTDNLLLEIQTEDVYKDIARHMDLYDTSDYPKNNPLHSMANKKVLRKMKDKGRPRG
+# YKHKKGQGVKKTVVKRRIRHEQYRDARFGKQTFCHGMNVLRSERHRIYGQHLNKVSLSMFDSKCWIAKNGADTLAHGHRDAE]
+# end gene g1
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G0XVD.prfl --predictionStart=495171 --predictionEnd=516148 --species=fly contig_2195_pilon_pilon_pilonpentagona_busco_meta_.temp

@@ -1,0 +1,20 @@
+2623_pilon_pilon_pilon	AUGUSTUS	gene	620856	632259	0.01	+	.	g2
+2623_pilon_pilon_pilon	AUGUSTUS	transcript	620856	632259	0.01	+	.	g2.t1
+2623_pilon_pilon_pilon	AUGUSTUS	tss	620856	620856	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	exon	620856	621119	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	start_codon	621036	621038	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	intron	621120	624424	0.01	+	.	transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	intron	624527	630850	0.01	+	.	transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	CDS	621036	621119	0.01	+	0	transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	CDS	624425	624526	0.02	+	0	transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	exon	624425	624526	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	CDS	630851	631021	0.01	+	0	transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	exon	630851	631035	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	stop_codon	631019	631021	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	exon	631708	632259	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	tts	632259	632259	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	protein_match	621045	621080	9.29	+	0	target "unknown_A[1..12]"; target_start 3; transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	protein_match	621090	621119	7.16	+	0	target "unknown_B[1..10]"; target_start 18; transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	protein_match	624425	624517	4.57	+	0	target "unknown_B[11..41]"; target_start 18; transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	protein_match	630851	630895	2.59	+	0	target "unknown_C[1..15]"; target_start 62; transcript_id "g2.t1"; gene_id "g2";
+2623_pilon_pilon_pilon	AUGUSTUS	protein_match	630899	631018	7.74	+	0	target "unknown_D[1..40]"; target_start 78; transcript_id "g2.t1"; gene_id "g2";

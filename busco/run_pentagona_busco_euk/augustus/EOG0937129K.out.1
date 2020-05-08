@@ -1,0 +1,60 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[11..114]--> unknown_B (23) <--[0..1]--> unknown_C (43) <--[0..38]--> unknown_D (23) <--[0..1]--> unknown_E (6) <--[0..40]--
+# fly version. Using default transition matrix.
+# Looks like contig_702_pilon_pilon_pilonhystera_busco_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 25107, name = contig_702_pilon_pilon_pilon) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+contig_702_pilon_pilon_pilon	AUGUSTUS	gene	163062	173673	0.01	+	.	g1
+contig_702_pilon_pilon_pilon	AUGUSTUS	transcript	163062	173673	0.01	+	.	g1.t1
+contig_702_pilon_pilon_pilon	AUGUSTUS	tss	163062	163062	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_702_pilon_pilon_pilon	AUGUSTUS	exon	163062	163368	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_702_pilon_pilon_pilon	AUGUSTUS	start_codon	163158	163160	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_702_pilon_pilon_pilon	AUGUSTUS	intron	163369	168677	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_702_pilon_pilon_pilon	AUGUSTUS	CDS	163158	163368	0.01	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_702_pilon_pilon_pilon	AUGUSTUS	CDS	168678	168808	0.01	+	2	transcript_id "g1.t1"; gene_id "g1";
+contig_702_pilon_pilon_pilon	AUGUSTUS	exon	168678	168825	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_702_pilon_pilon_pilon	AUGUSTUS	stop_codon	168806	168808	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_702_pilon_pilon_pilon	AUGUSTUS	exon	173179	173673	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_702_pilon_pilon_pilon	AUGUSTUS	tts	173673	173673	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_702_pilon_pilon_pilon	AUGUSTUS	protein_match	163209	163277	5.56	+	0	target "unknown_B[1..23]"; target_start 17; transcript_id "g1.t1"; gene_id "g1";
+contig_702_pilon_pilon_pilon	AUGUSTUS	protein_match	163278	163368	10.2	+	0	target "unknown_C[1..31]"; target_start 40; transcript_id "g1.t1"; gene_id "g1";
+contig_702_pilon_pilon_pilon	AUGUSTUS	protein_match	168678	168715	5.91	+	2	target "unknown_C[31..43]"; target_start 40; transcript_id "g1.t1"; gene_id "g1";
+contig_702_pilon_pilon_pilon	AUGUSTUS	protein_match	168719	168787	5.87	+	0	target "unknown_D[1..23]"; target_start 84; transcript_id "g1.t1"; gene_id "g1";
+contig_702_pilon_pilon_pilon	AUGUSTUS	protein_match	168788	168805	7.16	+	0	target "unknown_E[1..6]"; target_start 107; transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAIELFTVLGKFYEEYMSKTSQKLKIIDAYLAYIMLTGIVQFVYCVLVGTFPFNSFLSGFISCVGSFVLGVCLRLQVN
+# PANKVDFRNTSPERAFADFIFGSIILHLVVLNFIG]
+# sequence of block unknown_B    17 [SKTSQKLKIIDAYLAYIMLTGIV] 40
+# sequence of block unknown_C    40 [QFVYCVLVGTFPFNSFLSGFISCVGSFVLGVCLRLQVNPANKV] 83
+# sequence of block unknown_D    84 [FRNTSPERAFADFIFGSIILHLV] 107
+# sequence of block unknown_E   107 [VLNFIG] 113
+# end gene g1
+###
+# start gene g2
+contig_702_pilon_pilon_pilon	AUGUSTUS	gene	175971	177541	0.13	-	.	g2
+contig_702_pilon_pilon_pilon	AUGUSTUS	transcript	175971	177541	0.13	-	.	g2.t1
+contig_702_pilon_pilon_pilon	AUGUSTUS	tts	175971	175971	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_702_pilon_pilon_pilon	AUGUSTUS	exon	175971	177541	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_702_pilon_pilon_pilon	AUGUSTUS	stop_codon	176197	176199	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_702_pilon_pilon_pilon	AUGUSTUS	CDS	176197	177486	0.92	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_702_pilon_pilon_pilon	AUGUSTUS	start_codon	177484	177486	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_702_pilon_pilon_pilon	AUGUSTUS	tss	177541	177541	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MPGSVIGHHGSPSQHGRQPGKQETSPRFKIFVYDLPSRFNANLTSCSQAHSDGCYKFDHSGMGPELRRHDYLTYRNTH
+# RLSVEIIIHEKMLRSRHRTLDADKADAFYVPFYAALACTCKANSEMDIGELHEDLWRYLGITSPYFGSSGPPRRPHFMALGKIEREFWTSNCPLLRDT
+# ERTGGITFIGVEEEVNEELRKYFKRTNKRMVVVPYPSYGHFDSSYTASLAVPDQAGFPSDVRKTTRDVRMFMAVGSRKGHDVRVILKRHMTGTSQRYS
+# TFTASSSKQRRYAVWYSTPECRRDMQLPIVDWMRHSVFCLQPPGDSLTRKSFYDAVMAGCIPVTFRPKKRSASVAYPFQNRLDYTRFTVNIPLDDVLS
+# GAVRVADRLRIIPESRIADMQRRLAEAAPKLQYSYPPTSEDGDAFSMIVEEMQRIAA]
+# end gene g2
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/eukaryota_odb9//prfl/EOG0937129K.prfl --predictionStart=153457 --predictionEnd=178563 --species=fly contig_702_pilon_pilon_pilonhystera_busco_.temp

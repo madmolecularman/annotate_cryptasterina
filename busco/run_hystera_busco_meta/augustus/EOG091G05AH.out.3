@@ -1,0 +1,44 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[0..1302]--> unknown_A (56) <--[0..1]--> unknown_B (25) <--[0..20]--> unknown_C (60) <--[10..34]--> unknown_D (67) <--[0..1]--> unknown_E (63) <--[0..1]--> unknown_F (53) <--[1..5]--> unknown_G (60) <--[0..1]--> unknown_H (25) <--[0..5]--> unknown_I (68) <--[0..2]--
+# fly version. Using default transition matrix.
+# Looks like contig_3658_segment0hystera_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 18840, name = contig_3658_segment0) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+contig_3658_segment0	AUGUSTUS	gene	1103637	1113211	0.01	+	.	g1
+contig_3658_segment0	AUGUSTUS	transcript	1103637	1113211	0.01	+	.	g1.t1
+contig_3658_segment0	AUGUSTUS	tss	1103637	1103637	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	exon	1103637	1103800	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	exon	1104110	1105037	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	start_codon	1104237	1104239	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	intron	1105038	1110903	0.48	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	intron	1110956	1111578	0.91	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	intron	1111683	1112397	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	CDS	1104237	1105037	0.81	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	CDS	1110904	1110955	0.91	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	exon	1110904	1110955	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	CDS	1111579	1111682	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	exon	1111579	1111682	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	CDS	1112398	1112778	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	exon	1112398	1113211	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	stop_codon	1112776	1112778	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	tts	1113211	1113211	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MQKEKAIEDDDEEELGEDEKKRKKKQKDDEFLLGTCKGHKGGINCMGINEDGNIVITGGEDKTARLWNLATFECTKVL
+# KGHKGYLTCVQILDEFCYTGSADRTVRKWAAKTGACELVIDGHAASINRLICTGDFLFTSSYDRTAMCWDPDDGELLHIFRGHRRGVTPLMYIPAEDA
+# LKDDVVDFATNRDILVTGSADGTARSWDMDSGDSLVTFKGHKGGVLCLSADSTGSILFTGSADCTVKSWNISTGEMFKTFEGHQSAVVCLQLVVFVFR
+# PKHWSPTDKHVYTGCGDSFGRVYDAKSGALKRTFKGHEYCINAILVLPQKLLTASYDGTVKMWNCSGIRDEITSFGDDEEEKERKKKEKEEKKRQKEQ
+# KKKEKKEKERLEKERKKKPPSQSEDKDSLPEKDFQKSEKHPEEKKDIGKVDEDGLDEEISREIDMITKDMDDI]
+# end gene g1
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G05AH.prfl --predictionStart=1095282 --predictionEnd=1114121 --species=fly contig_3658_segment0hystera_busco_meta_.temp

@@ -1,0 +1,35 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[0..477]--> unknown_A (8) <--[21..29]--> unknown_C (58) <--[0..4]--> unknown_D (29) <--[7..9]--> unknown_E (21) <--[0..2]--> unknown_F (40) <--[2..12]--> unknown_G (12) <--[0..2]--> unknown_H (27) <--[0..1]--> unknown_I (31) <--[0..1]--> unknown_J (20) <--[2..7]--> unknown_K (32) <--[0..1]--> unknown_L (10) <--[1..37]--> unknown_M (71) <--[6..9]--> unknown_N (34) <--[7..400]--
+# fly version. Using default transition matrix.
+# Looks like contig_1684_segment0hystera_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 18885, name = contig_1684_segment0) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+contig_1684_segment0	AUGUSTUS	gene	3267019	3269549	0.01	+	.	g1
+contig_1684_segment0	AUGUSTUS	transcript	3267019	3269549	0.01	+	.	g1.t1
+contig_1684_segment0	AUGUSTUS	tss	3267019	3267019	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1684_segment0	AUGUSTUS	exon	3267019	3269549	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1684_segment0	AUGUSTUS	start_codon	3267436	3267438	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1684_segment0	AUGUSTUS	CDS	3267436	3269028	0.54	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1684_segment0	AUGUSTUS	stop_codon	3269026	3269028	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1684_segment0	AUGUSTUS	tts	3269549	3269549	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MRPKLYASRRNISALMVIILVQVSATCVWLAFNGNSSGSDLERTKQDHDKRQAGLQNSIIPEPGAGGTRNSVRNVDKS
+# SKSKEKKLDGKGEMVLRNKTSPARSAGGWPEAIPIKEKQPITRIPDSKSKFLSRMISSVASYCDGNVEFFENMTALMRNVIVNPAKAHTTAKGGEKIK
+# DVLLQHESAEFYHQEKGLFNVENCSNIPATNVFRFGHLSPQVPMLSEAVVLSKGPYKSQGAAIKEHDGDFVILLTRYEYANVYWTVIDLYDTFLMMQL
+# YNRTFQNTDLWIFDAHPGTSLDGLFTGTFRRVFRMAEITGETRIRNLLPCFSRGRTPILIRVLRPLTLVEKFRREVLSALGVLVKSDRDRERRCHQKK
+# LDVLFIWRRNYVGHPRNPQGTVSRKISNEDELLRRAKDHFPNYTIRGEQLDKLPMKKQLELIGNADIMVGMHGAAFGFTVFMQNGAGVLEMWPRAFQG
+# NWHMEYLAKRSGIFYQSWQNTDPTKENVAEKSTKVSPDAVISKLEELTISICTKYKDKVV]
+# end gene g1
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G0S5L.prfl --predictionStart=3259114 --predictionEnd=3277998 --species=fly contig_1684_segment0hystera_busco_meta_.temp

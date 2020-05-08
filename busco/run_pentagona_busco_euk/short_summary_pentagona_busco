@@ -1,0 +1,12 @@
+#Summarized BUSCO benchmarking for file: pentagona_assemblyV49.fasta
+#BUSCO was run in mode: genome
+
+Summarized benchmarks in BUSCO notation:
+	C:93%[D:2.3%],F:1.9%,M:4.6%,n:303
+
+	283	Complete BUSCOs
+	276	Complete and single-copy BUSCOs
+	7	Complete and duplicated BUSCOs
+	6	Fragmented BUSCOs
+	14	Missing BUSCOs
+	303	Total BUSCO groups searched

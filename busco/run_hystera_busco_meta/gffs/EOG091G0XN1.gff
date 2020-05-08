@@ -1,0 +1,20 @@
+contig_820_segment0	AUGUSTUS	gene	108233	119670	0.01	+	.	g1
+contig_820_segment0	AUGUSTUS	transcript	108233	119670	0.01	+	.	g1.t1
+contig_820_segment0	AUGUSTUS	exon	108233	108705	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	start_codon	108655	108657	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	intron	108706	115933	0.03	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	intron	116129	116360	0.82	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	intron	116604	118496	0.06	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	CDS	108655	108705	0.04	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	CDS	115934	116128	0.38	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	exon	115934	116128	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	CDS	116361	116603	0.68	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	exon	116361	116603	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	CDS	118497	118583	0.06	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	exon	118497	119016	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	stop_codon	118581	118583	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	exon	119565	119670	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	tts	119670	119670	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	protein_match	116382	116423	6.96	+	0	target "unknown_A[1..14]"; target_start 89; transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	protein_match	116424	116603	4.59	+	0	target "unknown_B[1..60]"; target_start 103; transcript_id "g1.t1"; gene_id "g1";
+contig_820_segment0	AUGUSTUS	protein_match	118497	118529	8.22	+	0	target "unknown_B[61..71]"; target_start 103; transcript_id "g1.t1"; gene_id "g1";

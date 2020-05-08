@@ -1,0 +1,52 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[8..143]--> unknown_B (8) <--[0..4]--> unknown_C (98) <--[0..1]--> unknown_D (110) <--[0..2]--> unknown_E (31) <--[3..5]--> unknown_F (27) <--[0..1]--> unknown_G (8) <--[0..1]--> unknown_H (22) <--[0..5]--> unknown_I (31) <--[0..4]--> unknown_J (21) <--[0..1]--> unknown_K (17) <--[0..1]--> unknown_L (13) <--[0..2]--> unknown_M (18) <--[0..1]--> unknown_N (20) <--[0..21]--> unknown_O (16) <--[0..1]--> unknown_P (50) <--[0..58]--
+# fly version. Using default transition matrix.
+# Looks like contig_1803_segment0hystera_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 18912, name = contig_1803_segment0) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+contig_1803_segment0	AUGUSTUS	gene	1093463	1100612	0.01	+	.	g1
+contig_1803_segment0	AUGUSTUS	transcript	1093463	1100612	0.01	+	.	g1.t1
+contig_1803_segment0	AUGUSTUS	tss	1093463	1093463	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1803_segment0	AUGUSTUS	exon	1093463	1093605	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1803_segment0	AUGUSTUS	exon	1098842	1099778	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1803_segment0	AUGUSTUS	start_codon	1098984	1098986	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1803_segment0	AUGUSTUS	intron	1099779	1100194	0.58	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1803_segment0	AUGUSTUS	CDS	1098984	1099778	0.55	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1803_segment0	AUGUSTUS	CDS	1100195	1100353	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1803_segment0	AUGUSTUS	exon	1100195	1100612	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1803_segment0	AUGUSTUS	stop_codon	1100351	1100353	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1803_segment0	AUGUSTUS	tts	1100612	1100612	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSTKESHAQGTLAQPQVELVNIVKEDVEKAIHEAVVSQQRVLNLSHRAISILPASAQRLTYVRRLLLNNNNLIMPPSE
+# LVALENLEELILDENKLTLLPSGFGRLTNLTYLSLSHNQLGCLPAEIGDLRNLEQLWIVGIQLVSLPTSIGLLGSLQKLGARDNNISSLPNEFCQLRH
+# LRWLSLAKNRLRDLPDQFGRLAELAFCDLSENKFTEVARSVAELPKLSSLILKGNQITALPDDRLLGLSRLTKLDLRANPMKNRPDHWKGLDFILLGS
+# VPTSTSVNESGAVVSSEEEEEDEVDSDDDDDYEEQEVDLDEEQ]
+# end gene g1
+###
+# start gene g2
+contig_1803_segment0	AUGUSTUS	gene	1106233	1107588	0.14	+	.	g2
+contig_1803_segment0	AUGUSTUS	transcript	1106233	1107588	0.14	+	.	g2.t1
+contig_1803_segment0	AUGUSTUS	tss	1106233	1106233	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1803_segment0	AUGUSTUS	exon	1106233	1107588	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1803_segment0	AUGUSTUS	start_codon	1106287	1106289	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1803_segment0	AUGUSTUS	CDS	1106287	1107264	0.9	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1803_segment0	AUGUSTUS	stop_codon	1107262	1107264	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1803_segment0	AUGUSTUS	tts	1107588	1107588	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSIVNAHKDGKGYKAISKLFRVPISTVQCIIKKFGTVKNIGKRGQKPKVTPRLARKVCREALSNPRTTIKTLQDNLGE
+# MGTKVSAQTIRRTLHKEGLHGRRPRKTPLLTHGHRKARLAFAREHRDKDQSFWSSILWSDETKMELFGHRDVSFVWRKKGEAFNPKNTVPTVKFGGGS
+# IMLWGCFSASGPGNLVKVEGIMKKEQYIQILQANAKQSAENLQLGPNWTYQQDNDPKHTAKAVKKWFQDNNVEVLQWPSQSPDLNPIENLWKTLKSKV
+# HVRRPSNLKELEVFAKEEWAKIPVELCQTLVNSYTNRLDAVIKNKGFAIDY]
+# end gene g2
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G05NZ.prfl --predictionStart=1089948 --predictionEnd=1108859 --species=fly contig_1803_segment0hystera_busco_meta_.temp

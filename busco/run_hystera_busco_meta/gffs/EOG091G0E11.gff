@@ -1,0 +1,36 @@
+contig_3648_segment0	AUGUSTUS	gene	2722442	2728111	0.01	-	.	g1
+contig_3648_segment0	AUGUSTUS	transcript	2722442	2728111	0.01	-	.	g1.t1
+contig_3648_segment0	AUGUSTUS	exon	2722442	2722625	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	exon	2724885	2725388	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	stop_codon	2725177	2725179	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	intron	2725389	2725653	0.77	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	intron	2725852	2726428	0.44	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	intron	2726580	2727020	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	intron	2727282	2727393	0.96	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	intron	2727504	2727607	0.74	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	CDS	2725177	2725388	0.81	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	CDS	2725654	2725851	0.44	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	exon	2725654	2725851	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	CDS	2726429	2726579	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	exon	2726429	2726579	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	CDS	2727021	2727281	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	exon	2727021	2727281	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	CDS	2727394	2727503	0.74	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	exon	2727394	2727503	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	CDS	2727608	2727716	0.58	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	exon	2727608	2727767	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	start_codon	2727714	2727716	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	exon	2727980	2728111	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	tss	2728111	2728111	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	protein_match	2725201	2725227	5.67	-	0	target "unknown_M[1..9]"; target_start 330; transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	protein_match	2725258	2725329	4.19	-	0	target "unknown_K[1..24]"; target_start 296; transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	protein_match	2725670	2725699	3.35	-	0	target "unknown_J[1..10]"; target_start 261; transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	protein_match	2725700	2725738	5.91	-	0	target "unknown_I[1..13]"; target_start 248; transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	protein_match	2725760	2725813	3.94	-	0	target "unknown_H[1..18]"; target_start 223; transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	protein_match	2725826	2725851	3.43	-	2	target "unknown_G[4..12]"; target_start 207; transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	protein_match	2726429	2726438	1.19	-	0	target "unknown_G[1..4]"; target_start 207; transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	protein_match	2726445	2726507	4.62	-	0	target "unknown_F[1..21]"; target_start 184; transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	protein_match	2727060	2727173	3.92	-	0	target "unknown_C[1..38]"; target_start 109; transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	protein_match	2727177	2727227	4.78	-	0	target "unknown_B[1..17]"; target_start 91; transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	protein_match	2727231	2727281	9.4	-	0	target "unknown_A[34..50]"; target_start 40; transcript_id "g1.t1"; gene_id "g1";
+contig_3648_segment0	AUGUSTUS	protein_match	2727394	2727492	2.36	-	0	target "unknown_A[1..33]"; target_start 40; transcript_id "g1.t1"; gene_id "g1";

@@ -1,0 +1,20 @@
+contig_163_pilon_pilon_pilon	AUGUSTUS	gene	1867136	1870109	0.01	+	.	g3
+contig_163_pilon_pilon_pilon	AUGUSTUS	transcript	1867136	1870109	0.01	+	.	g3.t1
+contig_163_pilon_pilon_pilon	AUGUSTUS	tss	1867136	1867136	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	exon	1867136	1867245	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	start_codon	1867201	1867203	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	intron	1867246	1868348	0.01	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	intron	1868478	1869479	0.01	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	intron	1869563	1869949	0.01	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	CDS	1867201	1867245	0.01	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	CDS	1868349	1868477	0.02	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	exon	1868349	1868477	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	CDS	1869480	1869562	0.01	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	exon	1869480	1869562	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	CDS	1869950	1870013	0.01	+	1	transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	exon	1869950	1870109	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	stop_codon	1870011	1870013	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	tts	1870109	1870109	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	protein_match	1868349	1868477	12.5	+	0	target "unknown_A[1..43]"; target_start 15; transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	protein_match	1869483	1869562	9.96	+	0	target "unknown_B[1..27]"; target_start 59; transcript_id "g3.t1"; gene_id "g3";
+contig_163_pilon_pilon_pilon	AUGUSTUS	protein_match	1869950	1870001	8.48	+	1	target "unknown_B[27..44]"; target_start 59; transcript_id "g3.t1"; gene_id "g3";

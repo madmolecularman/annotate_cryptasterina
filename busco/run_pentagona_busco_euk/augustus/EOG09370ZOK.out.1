@@ -1,0 +1,42 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[0..309]--> unknown_A (32) <--[1..6]--> unknown_B (22) <--[5..16]--> unknown_C (26) <--[2..16]--> unknown_D (28) <--[9..26]--> unknown_E (16) <--[4..17]--> unknown_F (22) <--[2..8]--> unknown_G (12) <--[3..9]--> unknown_H (47) <--[0..1]--> unknown_I (12) <--[3..6]--> unknown_J (11) <--[4..17]--> unknown_K (27) <--[40..74]--> unknown_N (27) <--[38..66]--> unknown_Q (17) <--[0..5]--> unknown_R (14) <--[4..6]--> unknown_S (12) <--[12..22]--> unknown_U (12) <--[0..47]--> unknown_V (17) <--[4..8]--> unknown_W (20) <--[4..14]--> unknown_X (11) <--[2..98]--
+# fly version. Using default transition matrix.
+# Looks like contig_2050_pilon_pilon_pilonhystera_busco_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 19651, name = contig_2050_pilon_pilon_pilon) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+contig_2050_pilon_pilon_pilon	AUGUSTUS	gene	1088084	1103420	0.06	-	.	g1
+contig_2050_pilon_pilon_pilon	AUGUSTUS	transcript	1088084	1103420	0.06	-	.	g1.t1
+contig_2050_pilon_pilon_pilon	AUGUSTUS	exon	1088084	1088223	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	stop_codon	1088093	1088095	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	intron	1088224	1096220	0.84	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	intron	1096409	1100223	0.58	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	intron	1100328	1101665	0.81	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	intron	1101827	1103291	0.7	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	CDS	1088093	1088223	0.85	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	CDS	1096221	1096408	0.62	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	exon	1096221	1096408	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	CDS	1100224	1100327	0.81	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	exon	1100224	1100327	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	CDS	1101666	1101826	0.99	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	exon	1101666	1101826	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	CDS	1103292	1103412	0.7	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	exon	1103292	1103420	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	start_codon	1103410	1103412	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MQEATAAVEGIVSRQRHAVLSGSCVALQRETKCQGNTESPGNVSEACEVLLKLNTDTYKPGIVSSLVALYTNLDNPEG
+# AIQVLDKAVEWYKQEGEKQSELNTLLRENTNFKLKHGKSQSAISMLEDLRKLSRELPPVAAFSGAVDVVALETTPLSLASRQMKKAGGKTEKMETAES
+# KVEAPVVKKRRKRKKLKGVKLPYTDGGFIGGQEVIVTADDVSGMHKYNTKRFRNIWNA]
+# end gene g1
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/eukaryota_odb9//prfl/EOG09370ZOK.prfl --predictionStart=1084304 --predictionEnd=1103954 --species=fly contig_2050_pilon_pilon_pilonhystera_busco_.temp

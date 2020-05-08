@@ -1,0 +1,12 @@
+#Summarized BUSCO benchmarking for file: hystera_assemblyV9_nanopore_only.fasta
+#BUSCO was run in mode: genome
+
+Summarized benchmarks in BUSCO notation:
+	C:91%[D:1.9%],F:2.3%,M:6.3%,n:978
+
+	893	Complete BUSCOs
+	874	Complete and single-copy BUSCOs
+	19	Complete and duplicated BUSCOs
+	23	Fragmented BUSCOs
+	62	Missing BUSCOs
+	978	Total BUSCO groups searched

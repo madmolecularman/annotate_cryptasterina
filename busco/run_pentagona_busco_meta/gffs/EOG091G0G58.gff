@@ -1,0 +1,23 @@
+contig_6767_pilon_pilon_pilon	AUGUSTUS	gene	33206	64294	0.01	-	.	g1
+contig_6767_pilon_pilon_pilon	AUGUSTUS	transcript	33206	64294	0.01	-	.	g1.t1
+contig_6767_pilon_pilon_pilon	AUGUSTUS	exon	33206	33807	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	stop_codon	33245	33247	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	intron	33808	35899	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	intron	35937	52313	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	intron	52428	55534	0.19	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	intron	55884	58476	0.63	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	intron	58590	59570	0.56	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	CDS	33245	33807	0.53	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	CDS	35900	35936	0.01	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	exon	35900	35936	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	CDS	52314	52427	0.09	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	exon	52314	52427	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	CDS	55535	55883	0.97	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	exon	55535	55883	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	CDS	58477	58589	0.6	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	exon	58477	58589	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	CDS	59571	59648	0.79	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	exon	59571	59725	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	start_codon	59646	59648	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	exon	63962	64294	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_6767_pilon_pilon_pilon	AUGUSTUS	tss	64294	64294	.	-	.	transcript_id "g1.t1"; gene_id "g1";

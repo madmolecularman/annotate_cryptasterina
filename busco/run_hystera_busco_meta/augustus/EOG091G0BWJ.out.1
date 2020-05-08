@@ -1,0 +1,36 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[0..24]--> unknown_A (28) <--[0..25]--> unknown_B (31) <--[3..24]--> unknown_C (22) <--[0..1]--> unknown_D (9) <--[0..1]--> unknown_E (16) <--[33..57]--> unknown_H (10) <--[4..13]--> unknown_I (30) <--[0..14]--> unknown_J (27) <--[0..2]--> unknown_K (13) <--[0..13]--> unknown_L (17) <--[5..7]--> unknown_M (21) <--[0..7]--
+# fly version. Using default transition matrix.
+# Looks like contig_3390_segment0hystera_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 18300, name = contig_3390_segment0) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+contig_3390_segment0	AUGUSTUS	gene	2057862	2076161	0.02	-	.	g1
+contig_3390_segment0	AUGUSTUS	transcript	2057862	2076161	0.02	-	.	g1.t1
+contig_3390_segment0	AUGUSTUS	intron	2057862	2071563	0.04	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	intron	2071827	2073302	0.54	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	intron	2073507	2074158	0.92	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	intron	2074287	2076161	0.76	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	CDS	2071564	2071826	0.56	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	exon	2071564	2071826	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	CDS	2073303	2073506	0.9	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	exon	2073303	2073506	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	CDS	2074159	2074286	0.9	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3390_segment0	AUGUSTUS	exon	2074159	2074286	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [VVKNNYQKILIFEDDVRFKDSFRPKFDELLKEIEVKRLDWELLYIGRKIMEVDYENYVKGFMHVVKPSYTYWTLSYML
+# TFNGAKKLLAQEPLGKMLPVDEYIPIMFDVHPDYFWDLQLHPGPPATSGTSDFYQHPLYPYREDWAKAFHPRDLKAYSVNPLLVEPTHYTGEENYTTD
+# TETKDIWEYVLEREGVSAKEKE]
+# end gene g1
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G0BWJ.prfl --predictionStart=2057862 --predictionEnd=2076161 --species=fly contig_3390_segment0hystera_busco_meta_.temp

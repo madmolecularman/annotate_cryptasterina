@@ -1,0 +1,29 @@
+645_pilon_pilon_pilon	AUGUSTUS	gene	1040021	1053771	0.01	+	.	g1
+645_pilon_pilon_pilon	AUGUSTUS	transcript	1040021	1053771	0.01	+	.	g1.t1
+645_pilon_pilon_pilon	AUGUSTUS	tss	1040021	1040021	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	exon	1040021	1040168	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	start_codon	1040149	1040151	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	intron	1040169	1042579	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	intron	1042711	1044809	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	intron	1044836	1047679	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	intron	1047755	1048708	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	intron	1048775	1052693	0.07	+	.	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	CDS	1040149	1040168	0.01	+	0	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	CDS	1042580	1042710	0.01	+	1	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	exon	1042580	1042710	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	CDS	1044810	1044835	0.01	+	2	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	exon	1044810	1044835	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	CDS	1047680	1047754	0.01	+	0	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	exon	1047680	1047754	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	CDS	1048709	1048774	0.04	+	0	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	exon	1048709	1048774	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	CDS	1052694	1052801	0.01	+	0	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	exon	1052694	1053771	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	stop_codon	1052799	1052801	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	tts	1053771	1053771	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	protein_match	1042587	1042703	4.19	+	0	target "unknown_A[1..39]"; target_start 9; transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	protein_match	1044824	1044835	5.64	+	0	target "unknown_B[1..4]"; target_start 55; transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	protein_match	1047680	1047754	6.15	+	2	target "unknown_B[5..30]"; target_start 54; transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	protein_match	1048709	1048711	9.52	+	0	target "unknown_B[30..30]"; target_start 55; transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	protein_match	1048712	1048774	6.51	+	0	target "unknown_C[1..21]"; target_start 85; transcript_id "g1.t1"; gene_id "g1";
+645_pilon_pilon_pilon	AUGUSTUS	protein_match	1052694	1052798	8.5	+	0	target "unknown_C[22..56]"; target_start 85; transcript_id "g1.t1"; gene_id "g1";

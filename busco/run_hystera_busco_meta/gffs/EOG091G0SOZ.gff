@@ -1,0 +1,22 @@
+contig_1169_segment0	AUGUSTUS	gene	418085	438169	0.01	-	.	g1
+contig_1169_segment0	AUGUSTUS	transcript	418085	438169	0.01	-	.	g1.t1
+contig_1169_segment0	AUGUSTUS	intron	418085	427174	0.05	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	intron	427510	428708	0.51	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	intron	428785	430129	0.8	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	intron	430339	433410	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	intron	434645	434693	0.48	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	intron	434824	437587	0.02	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	CDS	427175	427509	0.59	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	exon	427175	427509	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	CDS	428709	428784	0.8	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	exon	428709	428784	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	CDS	430130	430338	0.99	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	exon	430130	430338	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	CDS	433411	434644	0.48	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	exon	433411	434644	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	CDS	434694	434823	0.02	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	exon	434694	434823	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	CDS	437588	437817	0.01	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	exon	437588	438169	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	start_codon	437815	437817	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1169_segment0	AUGUSTUS	tss	438169	438169	.	-	.	transcript_id "g1.t1"; gene_id "g1";

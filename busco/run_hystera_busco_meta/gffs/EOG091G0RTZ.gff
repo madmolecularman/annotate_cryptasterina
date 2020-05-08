@@ -1,0 +1,21 @@
+contig_3916_segment0	AUGUSTUS	gene	357818	362976	0.01	-	.	g2
+contig_3916_segment0	AUGUSTUS	transcript	357818	362976	0.01	-	.	g2.t1
+contig_3916_segment0	AUGUSTUS	tts	357818	357818	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	exon	357818	358687	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	stop_codon	358598	358600	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	intron	358688	359499	0.01	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	intron	359639	361647	0.01	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	intron	361767	362832	0.01	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	CDS	358598	358687	0.02	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	CDS	359500	359638	0.01	-	1	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	exon	359500	359638	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	CDS	361648	361766	0.01	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	exon	361648	361766	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	CDS	362833	362862	0.06	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	exon	362833	362976	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	start_codon	362860	362862	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	tss	362976	362976	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	protein_match	358613	358687	5.72	-	0	target "unknown_B[89..113]"; target_start 8; transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	protein_match	359500	359638	11	-	1	target "unknown_B[42..88]"; target_start 8; transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	protein_match	361648	361766	14.2	-	0	target "unknown_B[3..42]"; target_start 8; transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	protein_match	362833	362838	3.92	-	0	target "unknown_B[1..2]"; target_start 8; transcript_id "g2.t1"; gene_id "g2";

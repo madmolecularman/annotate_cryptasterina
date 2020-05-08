@@ -1,0 +1,20 @@
+contig_2244_segment0	AUGUSTUS	gene	3376776	3393936	0.01	+	.	g1
+contig_2244_segment0	AUGUSTUS	transcript	3376776	3393936	0.01	+	.	g1.t1
+contig_2244_segment0	AUGUSTUS	tss	3376776	3376776	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	exon	3376776	3376851	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	exon	3380177	3380522	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	exon	3382097	3382422	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	start_codon	3382259	3382261	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	intron	3382423	3390645	0.5	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	intron	3390770	3392366	0.45	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	CDS	3382259	3382422	0.84	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	CDS	3390646	3390769	0.98	+	1	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	exon	3390646	3390769	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	CDS	3392367	3392540	0.53	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	exon	3392367	3392728	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	stop_codon	3392538	3392540	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	exon	3393652	3393936	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	tts	3393936	3393936	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	3382301	3382422	4.16	+	0	target "unknown_A[1..41]"; target_start 14; transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	3390646	3390769	6.91	+	0	target "unknown_A[42..83]"; target_start 13; transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	3392367	3392480	3.98	+	0	target "unknown_A[83..120]"; target_start 14; transcript_id "g1.t1"; gene_id "g1";

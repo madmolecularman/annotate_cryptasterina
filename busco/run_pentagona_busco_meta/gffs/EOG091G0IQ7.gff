@@ -1,0 +1,36 @@
+contig_1742_pilon_pilon_pilon	AUGUSTUS	gene	3615850	3620957	0.01	-	.	g2
+contig_1742_pilon_pilon_pilon	AUGUSTUS	transcript	3615850	3620957	0.01	-	.	g2.t1
+contig_1742_pilon_pilon_pilon	AUGUSTUS	tts	3615850	3615850	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	exon	3615850	3616948	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	stop_codon	3616826	3616828	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	intron	3616949	3617344	0.17	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	intron	3617447	3618016	0.09	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	intron	3618131	3619156	0.07	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	intron	3619342	3619928	0.01	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	intron	3620081	3620826	0.05	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	CDS	3616826	3616948	0.51	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	CDS	3617345	3617446	0.09	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	exon	3617345	3617446	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	CDS	3618017	3618130	0.16	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	exon	3618017	3618130	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	CDS	3619157	3619341	0.02	-	2	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	exon	3619157	3619341	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	CDS	3619929	3620080	0.04	-	1	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	exon	3619929	3620080	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	CDS	3620827	3620906	0.01	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	exon	3620827	3620957	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	start_codon	3620904	3620906	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	tss	3620957	3620957	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	protein_match	3616847	3616948	6.44	-	0	target "unknown_H[2..35]"; target_start 210; transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	protein_match	3617345	3617347	0.207	-	0	target "unknown_H[1..1]"; target_start 210; transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	protein_match	3617357	3617446	8.17	-	0	target "unknown_G[10..39]"; target_start 168; transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	protein_match	3618017	3618043	5.08	-	0	target "unknown_G[1..9]"; target_start 168; transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	protein_match	3618056	3618130	10.6	-	0	target "unknown_F[13..37]"; target_start 127; transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	protein_match	3619157	3619192	10.5	-	0	target "unknown_F[1..12]"; target_start 127; transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	protein_match	3619193	3619237	5.37	-	0	target "unknown_E[1..15]"; target_start 112; transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	protein_match	3619241	3619341	7.73	-	2	target "unknown_D[18..51]"; target_start 60; transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	protein_match	3619929	3619980	6.84	-	0	target "unknown_D[1..18]"; target_start 60; transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	protein_match	3620029	3620067	6	-	0	target "unknown_C[1..13]"; target_start 31; transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	protein_match	3620068	3620080	3.88	-	1	target "unknown_B[6..10]"; target_start 21; transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	protein_match	3620827	3620843	6.71	-	0	target "unknown_B[1..6]"; target_start 21; transcript_id "g2.t1"; gene_id "g2";
+contig_1742_pilon_pilon_pilon	AUGUSTUS	protein_match	3620844	3620894	6.83	-	0	target "unknown_A[1..17]"; target_start 4; transcript_id "g2.t1"; gene_id "g2";

@@ -1,0 +1,32 @@
+scaffold_2166_segment3	AUGUSTUS	gene	3284301	3290665	0.01	-	.	g2
+scaffold_2166_segment3	AUGUSTUS	transcript	3284301	3290665	0.01	-	.	g2.t1
+scaffold_2166_segment3	AUGUSTUS	tts	3284301	3284301	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	exon	3284301	3284914	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	stop_codon	3284799	3284801	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	intron	3284915	3285272	0.27	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	intron	3285382	3286358	0.28	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	intron	3286427	3286761	0.03	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	intron	3286916	3288302	0.11	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	intron	3288383	3289663	0.01	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	CDS	3284799	3284914	0.27	-	2	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	CDS	3285273	3285381	0.28	-	0	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	exon	3285273	3285381	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	CDS	3286359	3286426	0.33	-	2	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	exon	3286359	3286426	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	CDS	3286762	3286915	0.92	-	0	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	exon	3286762	3286915	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	CDS	3288303	3288382	0.01	-	2	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	exon	3288303	3288382	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	CDS	3289664	3289733	0.01	-	0	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	exon	3289664	3289733	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	start_codon	3289731	3289733	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	exon	3290119	3290665	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	tss	3290665	3290665	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	protein_match	3284802	3284837	3.13	-	0	target "unknown_F[1..12]"; target_start 186; transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	protein_match	3284844	3284873	4.88	-	0	target "unknown_E[1..10]"; target_start 174; transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	protein_match	3285286	3285381	7.52	-	0	target "unknown_D[1..32]"; target_start 124; transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	protein_match	3286359	3286376	10.6	-	0	target "unknown_C[1..6]"; target_start 118; transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	protein_match	3286377	3286426	8.66	-	2	target "unknown_B[87..103]"; target_start 15; transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	protein_match	3286762	3286915	3.78	-	0	target "unknown_B[36..87]"; target_start 15; transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	protein_match	3288303	3288382	7.46	-	2	target "unknown_B[9..35]"; target_start 15; transcript_id "g2.t1"; gene_id "g2";
+scaffold_2166_segment3	AUGUSTUS	protein_match	3289664	3289688	2.92	-	0	target "unknown_B[1..9]"; target_start 15; transcript_id "g2.t1"; gene_id "g2";

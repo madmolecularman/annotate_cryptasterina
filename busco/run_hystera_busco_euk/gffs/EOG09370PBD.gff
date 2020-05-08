@@ -1,0 +1,33 @@
+contig_2436_segment0:60834-3258156	AUGUSTUS	gene	2951050	2963387	0.02	+	.	g1
+contig_2436_segment0:60834-3258156	AUGUSTUS	transcript	2951050	2963387	0.02	+	.	g1.t1
+contig_2436_segment0:60834-3258156	AUGUSTUS	exon	2951050	2951160	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	exon	2957443	2958102	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	start_codon	2958041	2958043	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	intron	2958103	2959928	0.69	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	intron	2960033	2960701	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	intron	2960890	2961444	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	intron	2961654	2962365	0.37	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	intron	2962476	2962978	0.98	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	CDS	2958041	2958102	0.91	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	CDS	2959929	2960032	0.69	+	1	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	exon	2959929	2960032	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	CDS	2960702	2960889	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	exon	2960702	2960889	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	CDS	2961445	2961653	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	exon	2961445	2961653	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	CDS	2962366	2962475	0.98	+	1	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	exon	2962366	2962475	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	CDS	2962979	2963109	0.98	+	2	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	exon	2962979	2963387	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	stop_codon	2963107	2963109	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	tts	2963387	2963387	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	protein_match	2958101	2958102	1	+	0	target "unknown_A[1..1]"; target_start 20; transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	protein_match	2959929	2959962	9.93	+	1	target "unknown_A[1..12]"; target_start 20; transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	protein_match	2959963	2960032	7.16	+	0	target "unknown_B[1..24]"; target_start 32; transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	protein_match	2960702	2960703	1	+	2	target "unknown_B[24..24]"; target_start 32; transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	protein_match	2960707	2960766	8.72	+	0	target "unknown_C[1..20]"; target_start 57; transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	protein_match	2960767	2960889	9.32	+	0	target "unknown_D[1..41]"; target_start 77; transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	protein_match	2961445	2961642	6.59	+	0	target "unknown_D[42..107]"; target_start 77; transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	protein_match	2961646	2961653	9.23	+	0	target "unknown_E[1..3]"; target_start 185; transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	protein_match	2962366	2962475	8.36	+	0	target "unknown_E[4..40]"; target_start 184; transcript_id "g1.t1"; gene_id "g1";
+contig_2436_segment0:60834-3258156	AUGUSTUS	protein_match	2962979	2963016	6	+	2	target "unknown_E[40..52]"; target_start 185; transcript_id "g1.t1"; gene_id "g1";

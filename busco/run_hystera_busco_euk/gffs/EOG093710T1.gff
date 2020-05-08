@@ -1,0 +1,20 @@
+contig_3801_segment0:0-1049950	AUGUSTUS	gene	344851	348299	0.21	-	.	g3
+contig_3801_segment0:0-1049950	AUGUSTUS	transcript	344851	348299	0.21	-	.	g3.t1
+contig_3801_segment0:0-1049950	AUGUSTUS	tts	344851	344851	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	exon	344851	345018	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	stop_codon	344936	344938	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	intron	345019	345300	0.79	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	intron	345415	345850	0.83	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	intron	345980	346696	0.95	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	intron	346781	348105	0.9	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	CDS	344936	345018	0.91	-	2	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	CDS	345301	345414	0.83	-	2	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	exon	345301	345414	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	CDS	345851	345979	0.94	-	2	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	exon	345851	345979	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	CDS	346697	346780	0.97	-	2	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	exon	346697	346780	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	CDS	348106	348118	0.91	-	0	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	exon	348106	348299	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	start_codon	348116	348118	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+contig_3801_segment0:0-1049950	AUGUSTUS	tss	348299	348299	.	-	.	transcript_id "g3.t1"; gene_id "g3";

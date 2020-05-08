@@ -1,0 +1,11 @@
+645_pilon_pilon_pilon	AUGUSTUS	gene	328754	331809	0.01	+	.	g2
+645_pilon_pilon_pilon	AUGUSTUS	transcript	328754	331809	0.01	+	.	g2.t1
+645_pilon_pilon_pilon	AUGUSTUS	tss	328754	328754	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+645_pilon_pilon_pilon	AUGUSTUS	exon	328754	328912	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+645_pilon_pilon_pilon	AUGUSTUS	exon	330347	330687	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+645_pilon_pilon_pilon	AUGUSTUS	start_codon	330376	330378	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+645_pilon_pilon_pilon	AUGUSTUS	CDS	330376	330642	0.06	+	0	transcript_id "g2.t1"; gene_id "g2";
+645_pilon_pilon_pilon	AUGUSTUS	stop_codon	330640	330642	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+645_pilon_pilon_pilon	AUGUSTUS	exon	331245	331809	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+645_pilon_pilon_pilon	AUGUSTUS	tts	331809	331809	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+645_pilon_pilon_pilon	AUGUSTUS	protein_match	330508	330639	9.49	+	0	target "unknown_B[1..44]"; target_start 44; transcript_id "g2.t1"; gene_id "g2";

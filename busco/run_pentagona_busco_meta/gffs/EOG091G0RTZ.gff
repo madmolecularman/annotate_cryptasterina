@@ -1,0 +1,22 @@
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	gene	313387	320965	0.01	-	.	g2
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	transcript	313387	320965	0.01	-	.	g2.t1
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	tts	313387	313387	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	exon	313387	314256	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	stop_codon	314167	314169	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	intron	314257	315079	0.01	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	intron	315219	317225	0.01	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	intron	317345	318411	0.01	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	CDS	314167	314256	0.04	-	0	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	CDS	315080	315218	0.01	-	1	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	exon	315080	315218	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	CDS	317226	317344	0.01	-	0	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	exon	317226	317344	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	CDS	318412	318441	0.01	-	0	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	exon	318412	318473	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	start_codon	318439	318441	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	exon	320879	320965	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	tss	320965	320965	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	protein_match	314182	314256	5.72	-	0	target "unknown_B[89..113]"; target_start 8; transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	protein_match	315080	315218	11	-	1	target "unknown_B[42..88]"; target_start 8; transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	protein_match	317226	317344	14.2	-	0	target "unknown_B[3..42]"; target_start 8; transcript_id "g2.t1"; gene_id "g2";
+scaffold_7302_pilon.1_pilon_pilon	AUGUSTUS	protein_match	318412	318417	3.92	-	0	target "unknown_B[1..2]"; target_start 8; transcript_id "g2.t1"; gene_id "g2";

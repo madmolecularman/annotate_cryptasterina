@@ -1,0 +1,19 @@
+contig_5897_pilon_pilon_pilon	AUGUSTUS	gene	590468	593520	0.01	-	.	g1
+contig_5897_pilon_pilon_pilon	AUGUSTUS	transcript	590468	593520	0.01	-	.	g1.t1
+contig_5897_pilon_pilon_pilon	AUGUSTUS	tts	590468	590468	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	exon	590468	591345	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	stop_codon	590548	590550	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	intron	591346	591744	0.95	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	intron	592017	592739	0.89	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	CDS	590548	591345	0.95	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	CDS	591745	592016	0.94	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	exon	591745	592016	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	CDS	592740	592857	0.88	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	exon	592740	592980	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	start_codon	592855	592857	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	exon	593397	593520	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	tss	593520	593520	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	protein_match	590989	591060	5.48	-	0	target "unknown_D[1..24]"; target_start 225; transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	protein_match	591070	591222	3.31	-	0	target "unknown_C[1..51]"; target_start 171; transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	protein_match	591247	591345	1.88	-	0	target "unknown_A[19..51]"; target_start 112; transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	protein_match	591745	591798	3.6	-	0	target "unknown_A[1..18]"; target_start 112; transcript_id "g1.t1"; gene_id "g1";

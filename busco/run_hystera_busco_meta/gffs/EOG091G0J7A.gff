@@ -1,0 +1,33 @@
+scaffold_4553_segment0	AUGUSTUS	gene	1598628	1610172	0.02	-	.	g1
+scaffold_4553_segment0	AUGUSTUS	transcript	1598628	1610172	0.02	-	.	g1.t1
+scaffold_4553_segment0	AUGUSTUS	tts	1598628	1598628	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	exon	1598628	1599857	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	stop_codon	1599461	1599463	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	intron	1599858	1600997	0.54	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	intron	1601081	1601895	0.53	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	intron	1601975	1602981	0.67	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	intron	1603079	1603704	0.94	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	intron	1603854	1606579	0.95	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	intron	1606668	1607713	0.95	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	intron	1607893	1608356	0.14	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	intron	1608455	1609602	0.1	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	CDS	1599461	1599857	0.45	-	1	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	CDS	1600998	1601080	0.53	-	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	exon	1600998	1601080	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	CDS	1601896	1601974	0.67	-	1	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	exon	1601896	1601974	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	CDS	1602982	1603078	0.95	-	2	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	exon	1602982	1603078	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	CDS	1603705	1603853	1	-	1	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	exon	1603705	1603853	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	CDS	1606580	1606667	0.95	-	2	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	exon	1606580	1606667	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	CDS	1607714	1607892	0.26	-	1	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	exon	1607714	1607892	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	CDS	1608357	1608454	0.13	-	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	exon	1608357	1608454	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	CDS	1609603	1609701	0.12	-	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	exon	1609603	1609739	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	start_codon	1609699	1609701	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	exon	1609997	1610172	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4553_segment0	AUGUSTUS	tss	1610172	1610172	.	-	.	transcript_id "g1.t1"; gene_id "g1";

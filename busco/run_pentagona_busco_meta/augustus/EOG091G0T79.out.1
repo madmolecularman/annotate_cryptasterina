@@ -1,0 +1,34 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[0..53]--> unknown_A (14) <--[0..3]--> unknown_B (30) <--[6..13]--> unknown_D (22) <--[4..5]--> unknown_E (23) <--[2..5]--> unknown_F (11) <--[1..8]--> unknown_G (11) <--[0..36]--> unknown_H (10) <--[0..1]--> unknown_I (17) <--[0..4]--> unknown_J (22) <--[9..26]--> unknown_L (20) <--[1..45]--
+# fly version. Using default transition matrix.
+# Looks like scaffold_6083_pilon_pilon_pilonpentagona_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 19762, name = scaffold_6083_pilon_pilon_pilon) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+scaffold_6083_pilon_pilon_pilon	AUGUSTUS	gene	1180991	1191669	0.01	+	.	g1
+scaffold_6083_pilon_pilon_pilon	AUGUSTUS	transcript	1180991	1191669	0.01	+	.	g1.t1
+scaffold_6083_pilon_pilon_pilon	AUGUSTUS	tss	1180991	1180991	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_6083_pilon_pilon_pilon	AUGUSTUS	exon	1180991	1181286	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_6083_pilon_pilon_pilon	AUGUSTUS	exon	1185617	1186524	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_6083_pilon_pilon_pilon	AUGUSTUS	start_codon	1185625	1185627	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_6083_pilon_pilon_pilon	AUGUSTUS	CDS	1185625	1186269	0.96	+	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_6083_pilon_pilon_pilon	AUGUSTUS	stop_codon	1186267	1186269	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_6083_pilon_pilon_pilon	AUGUSTUS	exon	1191572	1191669	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_6083_pilon_pilon_pilon	AUGUSTUS	tts	1191669	1191669	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGKREYWDEFYAKRSASHDQEFDWFFAHDVANQWLAKYIFAVRTTAPANGIVNILELGCGTSTLASNLLKDNRGIMSL
+# ICTDFSPRALRQAQSISGRICPTHKESIQFVVADARHLPFRNNHFDLVFEKGTFDAMFNSSHSDDASVSFRETLRVLSSSGTLLQFSDENPDLRLSFL
+# EEALRECGVDRSRASVTCQDVGSAYGVEYFLYAAKLSR]
+# end gene g1
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G0T79.prfl --predictionStart=1176026 --predictionEnd=1195787 --species=fly scaffold_6083_pilon_pilon_pilonpentagona_busco_meta_.temp

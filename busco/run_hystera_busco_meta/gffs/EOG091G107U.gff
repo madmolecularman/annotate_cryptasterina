@@ -1,0 +1,21 @@
+contig_3080_segment0	AUGUSTUS	gene	1882433	1886838	0.01	+	.	g3
+contig_3080_segment0	AUGUSTUS	transcript	1882433	1886838	0.01	+	.	g3.t1
+contig_3080_segment0	AUGUSTUS	tss	1882433	1882433	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	exon	1882433	1882506	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	exon	1882699	1882738	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	start_codon	1882736	1882738	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	intron	1882739	1885084	0.01	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	intron	1885214	1886208	0.01	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	intron	1886292	1886678	0.01	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	CDS	1882736	1882738	0.01	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	CDS	1885085	1885213	0.01	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	exon	1885085	1885213	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	CDS	1886209	1886291	0.01	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	exon	1886209	1886291	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	CDS	1886679	1886742	0.01	+	1	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	exon	1886679	1886838	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	stop_codon	1886740	1886742	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	tts	1886838	1886838	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	protein_match	1885085	1885213	12.5	+	0	target "unknown_A[1..43]"; target_start 1; transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	protein_match	1886212	1886291	9.96	+	0	target "unknown_B[1..27]"; target_start 45; transcript_id "g3.t1"; gene_id "g3";
+contig_3080_segment0	AUGUSTUS	protein_match	1886679	1886730	8.48	+	1	target "unknown_B[27..44]"; target_start 45; transcript_id "g3.t1"; gene_id "g3";

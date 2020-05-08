@@ -1,0 +1,18 @@
+contig_2050_pilon_pilon_pilon	AUGUSTUS	gene	3221201	3223476	0.03	-	.	g2
+contig_2050_pilon_pilon_pilon	AUGUSTUS	transcript	3221201	3223476	0.03	-	.	g2.t1
+contig_2050_pilon_pilon_pilon	AUGUSTUS	tts	3221201	3221201	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	exon	3221201	3221465	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	stop_codon	3221334	3221336	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	intron	3221466	3222098	0.21	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	intron	3222240	3223217	0.21	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	CDS	3221334	3221465	0.21	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	CDS	3222099	3222239	0.21	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	exon	3222099	3222239	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	CDS	3223218	3223385	0.15	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	exon	3223218	3223476	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	start_codon	3223383	3223385	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	tss	3223476	3223476	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	protein_match	3221394	3221465	6.13	-	0	target "unknown_B[38..61]"; target_start 66; transcript_id "g2.t1"; gene_id "g2";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	protein_match	3222099	3222209	7.94	-	0	target "unknown_B[1..37]"; target_start 66; transcript_id "g2.t1"; gene_id "g2";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	protein_match	3222213	3222239	9.52	-	0	target "unknown_A[56..64]"; target_start 1; transcript_id "g2.t1"; gene_id "g2";
+contig_2050_pilon_pilon_pilon	AUGUSTUS	protein_match	3223218	3223382	9.33	-	0	target "unknown_A[1..55]"; target_start 1; transcript_id "g2.t1"; gene_id "g2";

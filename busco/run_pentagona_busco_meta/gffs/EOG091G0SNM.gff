@@ -1,0 +1,18 @@
+2719_pilon_pilon_pilon	AUGUSTUS	gene	424000	429034	0.01	-	.	g2
+2719_pilon_pilon_pilon	AUGUSTUS	transcript	424000	429034	0.01	-	.	g2.t1
+2719_pilon_pilon_pilon	AUGUSTUS	tts	424000	424000	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+2719_pilon_pilon_pilon	AUGUSTUS	exon	424000	424201	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+2719_pilon_pilon_pilon	AUGUSTUS	stop_codon	424112	424114	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+2719_pilon_pilon_pilon	AUGUSTUS	intron	424202	424893	0.57	-	.	transcript_id "g2.t1"; gene_id "g2";
+2719_pilon_pilon_pilon	AUGUSTUS	intron	425054	427182	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+2719_pilon_pilon_pilon	AUGUSTUS	intron	427296	428018	0.85	-	.	transcript_id "g2.t1"; gene_id "g2";
+2719_pilon_pilon_pilon	AUGUSTUS	CDS	424112	424201	0.57	-	0	transcript_id "g2.t1"; gene_id "g2";
+2719_pilon_pilon_pilon	AUGUSTUS	CDS	424894	425053	0.98	-	1	transcript_id "g2.t1"; gene_id "g2";
+2719_pilon_pilon_pilon	AUGUSTUS	exon	424894	425053	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+2719_pilon_pilon_pilon	AUGUSTUS	CDS	427183	427295	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+2719_pilon_pilon_pilon	AUGUSTUS	exon	427183	427295	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+2719_pilon_pilon_pilon	AUGUSTUS	CDS	428019	428153	0.9	-	0	transcript_id "g2.t1"; gene_id "g2";
+2719_pilon_pilon_pilon	AUGUSTUS	exon	428019	428161	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+2719_pilon_pilon_pilon	AUGUSTUS	start_codon	428151	428153	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+2719_pilon_pilon_pilon	AUGUSTUS	exon	428923	429034	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+2719_pilon_pilon_pilon	AUGUSTUS	tss	429034	429034	.	-	.	transcript_id "g2.t1"; gene_id "g2";

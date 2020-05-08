@@ -1,0 +1,20 @@
+1983_pilon_pilon_pilon	AUGUSTUS	gene	812005	815976	0.02	+	.	g2
+1983_pilon_pilon_pilon	AUGUSTUS	transcript	812005	815976	0.02	+	.	g2.t1
+1983_pilon_pilon_pilon	AUGUSTUS	tss	812005	812005	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	exon	812005	812059	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	exon	812588	812805	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	start_codon	812590	812592	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	intron	812806	813648	0.83	+	.	transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	intron	814043	815573	0.96	+	.	transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	CDS	812590	812805	0.54	+	0	transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	CDS	813649	814042	0.86	+	0	transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	exon	813649	814042	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	CDS	815574	815740	0.63	+	2	transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	exon	815574	815976	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	stop_codon	815738	815740	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	tts	815976	815976	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	protein_match	812677	812805	2.38	+	0	target "unknown_B[1..43]"; target_start 29; transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	protein_match	813649	813750	4.26	+	0	target "unknown_B[44..77]"; target_start 29; transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	protein_match	813751	813807	4.81	+	0	target "unknown_C[1..19]"; target_start 106; transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	protein_match	814006	814042	2.52	+	0	target "unknown_E[1..13]"; target_start 191; transcript_id "g2.t1"; gene_id "g2";
+1983_pilon_pilon_pilon	AUGUSTUS	protein_match	815574	815728	3.4	+	2	target "unknown_E[13..64]"; target_start 191; transcript_id "g2.t1"; gene_id "g2";

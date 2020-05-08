@@ -1,0 +1,47 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[20..221]--> unknown_A (27) <--[45..98]--> unknown_B (14) <--[0..5]--> unknown_C (26) <--[0..1]--> unknown_D (25) <--[0..2]--> unknown_E (42) <--[0..3]--> unknown_F (13) <--[0..4]--> unknown_G (23) <--[0..9]--> unknown_H (13) <--[1..5]--> unknown_I (40) <--[1..17]--> unknown_J (28) <--[2..4]--> unknown_K (30) <--[3..11]--> unknown_L (22) <--[0..19]--> unknown_M (63) <--[5..7]--> unknown_N (14) <--[13..118]--> unknown_O (22) <--[0..1]--> unknown_P (16) <--[2..6]--> unknown_Q (14) <--[69..544]--> unknown_T (24) <--[0..109]--
+# fly version. Using default transition matrix.
+# Looks like contig_1531_pilon.1_pilon_pilonpentagona_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 20071, name = contig_1531_pilon.1_pilon_pilon) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	gene	110210	125052	0.01	+	.	g1
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	transcript	110210	125052	0.01	+	.	g1.t1
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	tss	110210	110210	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	exon	110210	110600	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	exon	114361	115975	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	start_codon	114468	114470	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	intron	115976	116883	0.21	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	intron	117050	122361	0.07	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	intron	122483	124634	0.11	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	CDS	114468	115975	0.33	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	CDS	116884	117049	0.19	+	1	transcript_id "g1.t1"; gene_id "g1";
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	exon	116884	117049	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	CDS	122362	122482	0.86	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	exon	122362	122482	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	CDS	124635	124900	0.19	+	2	transcript_id "g1.t1"; gene_id "g1";
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	exon	124635	125052	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	stop_codon	124898	124900	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1531_pilon.1_pilon_pilon	AUGUSTUS	tts	125052	125052	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MPALGFNVKYFCENLRATKPPYECPVKDCGKIYRSHSGIEFHLNNFDHEKAGGNGYSTPMKRGGWRKGRVTNRQNRRS
+# PSPSVIRSPTREALTYAQAQRLVEVDIDGLVHRLDIHETIDILTEDEFESETSEEEKNEKPLGKATKALDQTKQRKDIGSTSSMKLPEASYKILDGYE
+# EPPDAPDRPQAYFRYIEKSREELDEEIEYDMDEEDYAWLDMMNDKRKSDGLTTVSQEIFETLMDRLEKESYFQSQTSGKTDNNQFIDEDAVCCICNDG
+# ECQNSNVILFCDMCNLAVHQECYGVPYIPEGQWLCRRCLQSPSRAVDCALCPNKGAAFKQTDDGRWAHVVCALWIPEVGFANTVFLEPIDSIDHIPAA
+# RWKLTCYICKQRGVGACIQCHKANCYTAFHVTCAQQAGLFMKMEPIRETNINGTSISIRKTAYCDIHTPPEMERKPSINDKIVENDEAGKGLSAKKAK
+# AQSRKNMRKARKILAEKRAAMPVVSMPCIPPQRISKITTKVSLQKKQQFVQRLIGYWTLKRQSRNGVPLLRRLQAHHHSQRNKDSVPLGGAVIRNAKR
+# IVEKIGYDPATGFHAEKAPHYKEAEFKLDDFDAALSPAHRADMSLEEQLQELLEKLDMTCTIKHGAARTKRSKQLRKEINVIRRKLAQQRNQANKAGS
+# PTKKDEDKRKGPSSADGVSS]
+# end gene g1
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G02FR.prfl --predictionStart=105475 --predictionEnd=125545 --species=fly contig_1531_pilon.1_pilon_pilonpentagona_busco_meta_.temp

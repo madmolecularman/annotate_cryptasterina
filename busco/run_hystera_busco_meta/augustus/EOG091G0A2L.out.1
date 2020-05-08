@@ -1,0 +1,50 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[9..145]--> unknown_B (22) <--[0..15]--> unknown_C (12) <--[1..6]--> unknown_D (18) <--[2..6]--> unknown_E (19) <--[5..16]--> unknown_F (13) <--[2..9]--> unknown_G (18) <--[0..6]--> unknown_H (26) <--[10..18]--> unknown_J (59) <--[0..6]--> unknown_K (23) <--[12..21]--> unknown_M (53) <--[0..5]--> unknown_N (47) <--[0..30]--
+# fly version. Using default transition matrix.
+# Looks like contig_3658_segment0hystera_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 18720, name = contig_3658_segment0) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+contig_3658_segment0	AUGUSTUS	gene	833803	848241	0.01	-	.	g1
+contig_3658_segment0	AUGUSTUS	transcript	833803	848241	0.01	-	.	g1.t1
+contig_3658_segment0	AUGUSTUS	exon	833803	833940	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	stop_codon	833838	833840	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	intron	833941	834051	0.27	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	intron	834165	835321	0.41	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	intron	835491	838960	0.31	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	intron	839180	839285	0.3	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	intron	840309	846560	0.34	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	CDS	833838	833940	0.27	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	CDS	834052	834164	0.46	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	exon	834052	834164	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	CDS	835322	835490	0.42	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	exon	835322	835490	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	CDS	838961	839179	0.43	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	exon	838961	839179	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	CDS	839286	840308	0.16	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	exon	839286	840308	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	CDS	846561	846574	0.57	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	exon	846561	846751	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	start_codon	846572	846574	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	exon	847638	848241	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_3658_segment0	AUGUSTUS	tss	848241	848241	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MEGSVAKNVIKVSLGSRHSAFLTDQHAVYCYGSGDLGQLGHKKFSDVVKQPVLVQDLKGENVIDVVCGSNHTAVLCSD
+# GIVFCWGDNGSGQCGIGLIEKTNSPQQVQISDTDSDPIITHISCGDSHTLALSSSAEIWAWGTGPQLGLGTGSTPVPTPQKVQGLVGRNVLQISCGSN
+# HSLAVVQKVRTSKLSGSRQRDMDEEGSATSSLQMTDEIYSLHEEGDIVIITDTRTASSSVEEIPSMRSFSPDSIDVATRQAALKDDLAKSDSEDSNNS
+# QGTYTVGQDKEQEAEAEKTDSVVNGEVFHDQPDSVSTPTPTLQPERKLTFTESFDSASAKKYLAQQLKPLQFLRPKLSLTEGSELEDTEVEELMMSGG
+# SQHELCKGSGIKFVLEGSLDDSTLQTEVWSWGKGANGQLGQGDPLDKAQPLVIKQLTGKGVMRVVAGPSHSLAIASNGQVYSWGCNSDGQLGHNGQLV
+# PKRVKMPNNALVWDAAAGSNHTLLIADGNSFQPDVYYLGKQPRLTISDPREAFSNCGSNPRETNTQENHGDILPHQ]
+# end gene g1
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G0A2L.prfl --predictionStart=830687 --predictionEnd=849406 --species=fly contig_3658_segment0hystera_busco_meta_.temp

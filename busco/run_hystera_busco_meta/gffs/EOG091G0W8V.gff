@@ -1,0 +1,20 @@
+contig_1075_segment0	AUGUSTUS	gene	3589350	3597145	0.01	-	.	g3
+contig_1075_segment0	AUGUSTUS	transcript	3589350	3597145	0.01	-	.	g3.t1
+contig_1075_segment0	AUGUSTUS	tts	3589350	3589350	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	exon	3589350	3589575	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	stop_codon	3589486	3589488	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	intron	3589576	3590157	0.02	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	intron	3590349	3590992	0.02	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	CDS	3589486	3589575	0.02	-	0	transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	CDS	3590158	3590348	0.02	-	2	transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	exon	3590158	3590348	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	CDS	3590993	3591044	0.02	-	0	transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	exon	3590993	3591386	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	start_codon	3591042	3591044	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	exon	3593789	3594111	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	exon	3596225	3596559	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	exon	3596958	3597145	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	tss	3597145	3597145	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	protein_match	3589501	3589575	12.4	-	0	target "unknown_A[82..106]"; target_start 0; transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	protein_match	3590158	3590348	16.5	-	2	target "unknown_A[18..81]"; target_start 0; transcript_id "g3.t1"; gene_id "g3";
+contig_1075_segment0	AUGUSTUS	protein_match	3590993	3591044	16.4	-	0	target "unknown_A[1..18]"; target_start 0; transcript_id "g3.t1"; gene_id "g3";

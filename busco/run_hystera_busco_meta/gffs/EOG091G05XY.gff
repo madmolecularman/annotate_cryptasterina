@@ -1,0 +1,23 @@
+contig_1205_segment0	AUGUSTUS	gene	490290	503790	0.01	+	.	g2
+contig_1205_segment0	AUGUSTUS	transcript	490290	503790	0.01	+	.	g2.t1
+contig_1205_segment0	AUGUSTUS	tss	490290	490290	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	exon	490290	490472	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	exon	490733	490964	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	start_codon	490902	490904	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	intron	490965	491133	0.92	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	intron	491311	491690	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	intron	491870	492498	0.84	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	intron	492683	493491	0.92	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	intron	493874	494062	0.68	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	intron	494180	503790	0.01	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	CDS	490902	490964	0.87	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	CDS	491134	491310	0.93	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	exon	491134	491310	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	CDS	491691	491869	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	exon	491691	491869	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	CDS	492499	492682	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	exon	492499	492682	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	CDS	493492	493873	0.67	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	exon	493492	493873	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	CDS	494063	494179	0.44	+	2	transcript_id "g2.t1"; gene_id "g2";
+contig_1205_segment0	AUGUSTUS	exon	494063	494179	.	+	.	transcript_id "g2.t1"; gene_id "g2";

@@ -1,0 +1,75 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[14..98]--> unknown_B (16) <--[2..6]--> unknown_C (8) <--[0..12]--> unknown_D (7) <--[0..49]--> unknown_E (20) <--[0..1]--> unknown_F (31) <--[6..54]--> unknown_H (17) <--[2..3]--> unknown_I (9) <--[0..3]--> unknown_J (24) <--[1..7]--> unknown_K (16) <--[6..42]--
+# fly version. Using default transition matrix.
+# Looks like contig_2217_segment0hystera_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 18543, name = contig_2217_segment0) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+contig_2217_segment0	AUGUSTUS	gene	6900512	6902869	0.04	-	.	g1
+contig_2217_segment0	AUGUSTUS	transcript	6900512	6902869	0.04	-	.	g1.t1
+contig_2217_segment0	AUGUSTUS	exon	6900512	6902158	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2217_segment0	AUGUSTUS	stop_codon	6900517	6900519	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2217_segment0	AUGUSTUS	CDS	6900517	6902100	0.63	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2217_segment0	AUGUSTUS	start_codon	6902098	6902100	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2217_segment0	AUGUSTUS	exon	6902322	6902869	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2217_segment0	AUGUSTUS	tss	6902869	6902869	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MLKCLSDVIESDILEELKKSQHFSLMFDETTDCSVREQMTIRGRYIDSNGDIQTKFLKLHECLNEGDRDRVTLDAQTI
+# SGIVIDYIEVNDLSYKRLRGIGTDGAAVMTGRLNGTVKRLQRKQVEAQEGRTHKCEAVGCHCAAHKLNLAAQQAGDSAYVKKFKDVLRQLYDFFHNSA
+# VRSAGLLAIQKLLDKQELKVLQPSSTRWLSIGESVLRLKDILPSVICSLGREAEERGNVMAAGLYQFLSDFQFICTLLLMCDVLPKVNTLSRVFQKTN
+# LDFTTAAQVRKSIVSMLNGLKSADGDNLKTLDAYIQELENERNGVSIKYGKCLRGQDMSNKEQASLKFKENIKRPFLEKLVTNIEDRFLDSEVLGAFS
+# VFEPSLLEADGVGDNASYGNASISMLVDRFGEYSEEQALTEWNIFRQFLRDHMKSSDGKHVVERLCSPKESLDAVFPVMAFLARCYRSLPPHTADCER
+# DFSQMKISKSYLRNRLFESSLDGIMRIVIEGPSVADFPFDRAVRLWASRKNRRLKLN]
+# end gene g1
+###
+# start gene g2
+contig_2217_segment0	AUGUSTUS	gene	6905690	6908186	0.01	+	.	g2
+contig_2217_segment0	AUGUSTUS	transcript	6905690	6908186	0.01	+	.	g2.t1
+contig_2217_segment0	AUGUSTUS	tss	6905690	6905690	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	exon	6905690	6906253	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	start_codon	6906113	6906115	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	intron	6906254	6906359	0.12	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	intron	6906409	6906700	0.58	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	CDS	6906113	6906253	0.12	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	CDS	6906360	6906408	0.19	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	exon	6906360	6906408	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	CDS	6906701	6907185	0.66	+	2	transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	exon	6906701	6907374	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	stop_codon	6907183	6907185	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	exon	6908063	6908186	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	tts	6908186	6908186	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	protein_match	6906206	6906253	7.59	+	0	target "unknown_B[1..16]"; target_start 31; transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	protein_match	6906366	6906389	5.75	+	0	target "unknown_C[1..8]"; target_start 49; transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	protein_match	6906390	6906408	9.22	+	0	target "unknown_D[1..7]"; target_start 57; transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	protein_match	6906701	6906702	1	+	2	target "unknown_D[7..7]"; target_start 57; transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	protein_match	6906703	6906762	5.92	+	0	target "unknown_E[1..20]"; target_start 64; transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	protein_match	6906766	6906858	7.45	+	0	target "unknown_F[1..31]"; target_start 85; transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	protein_match	6906907	6906957	3.76	+	0	target "unknown_H[1..17]"; target_start 132; transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	protein_match	6906967	6906993	10.6	+	0	target "unknown_I[1..9]"; target_start 152; transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	protein_match	6907000	6907071	5.58	+	0	target "unknown_J[1..24]"; target_start 163; transcript_id "g2.t1"; gene_id "g2";
+contig_2217_segment0	AUGUSTUS	protein_match	6907084	6907131	6.33	+	0	target "unknown_K[1..16]"; target_start 191; transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MFWKTSVNVCRFLSTCCRKLSRASYVQGQSPEPRVREYFYFIDHQGQLFLDDTKVKNFITCFKDKKFLAFFFKRLKLN
+# NLERYAADFPYLSPCGAERNFIRCDDQPIVFTKILPPEDDQDTSVDTPSDRLICNFADSFTVKFEPEKVCMLPRSGRIYHPAPKKTGGIGLIKSSVAI
+# EISPCFEFGEAGEYAPPTHFNWKGKRWELTNEILKVVRDSREGEVTDL]
+# sequence of block unknown_B    31 [EPRVREYFYFIDHQGQ] 47
+# sequence of block unknown_C    49 [LDDTKVKN] 57
+# sequence of block unknown_D    57 [FITCFKD] 64
+# sequence of block unknown_E    64 [KKFLAFFFKRLKLNNLERYA] 84
+# sequence of block unknown_F    85 [DFPYLSPCGAERNFIRCDDQPIVFTKILPPE] 116
+# sequence of block unknown_H   132 [NFADSFTVKFEPEKVCM] 149
+# sequence of block unknown_I   152 [SGRIYHPAP] 161
+# sequence of block unknown_J   163 [TGGIGLIKSSVAIEISPCFEFGEA] 187
+# sequence of block unknown_K   191 [PPTHFNWKGKRWELTN] 207
+# end gene g2
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G0MSR.prfl --predictionStart=6897655 --predictionEnd=6916197 --species=fly contig_2217_segment0hystera_busco_meta_.temp

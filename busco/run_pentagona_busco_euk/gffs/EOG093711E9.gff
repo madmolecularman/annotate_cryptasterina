@@ -1,0 +1,19 @@
+contig_988_pilon_pilon_pilon	AUGUSTUS	gene	3277041	3287047	0.01	-	.	g3
+contig_988_pilon_pilon_pilon	AUGUSTUS	transcript	3277041	3287047	0.01	-	.	g3.t1
+contig_988_pilon_pilon_pilon	AUGUSTUS	tts	3277041	3277041	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	exon	3277041	3277266	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	stop_codon	3277177	3277179	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	intron	3277267	3277848	0.01	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	intron	3278040	3281609	0.01	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	CDS	3277177	3277266	0.01	-	0	transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	CDS	3277849	3278039	0.01	-	2	transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	exon	3277849	3278039	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	CDS	3281610	3281661	0.07	-	0	transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	exon	3281610	3282004	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	start_codon	3281659	3281661	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	exon	3284387	3284713	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	exon	3286929	3287047	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	tss	3287047	3287047	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	protein_match	3277186	3277266	12.2	-	0	target "unknown_A[82..108]"; target_start 0; transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	protein_match	3277849	3278039	14	-	2	target "unknown_A[18..81]"; target_start 0; transcript_id "g3.t1"; gene_id "g3";
+contig_988_pilon_pilon_pilon	AUGUSTUS	protein_match	3281610	3281661	13.2	-	0	target "unknown_A[1..18]"; target_start 0; transcript_id "g3.t1"; gene_id "g3";

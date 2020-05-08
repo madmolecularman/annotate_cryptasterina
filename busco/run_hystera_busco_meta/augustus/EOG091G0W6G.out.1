@@ -1,0 +1,48 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[0..24]--> unknown_A (52) <--[0..15]--> unknown_B (49) <--[0..19]--
+# fly version. Using default transition matrix.
+# Looks like scaffold_4170_segment0hystera_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 22682, name = scaffold_4170_segment0) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+scaffold_4170_segment0	AUGUSTUS	gene	4214009	4227614	0.01	+	.	g1
+scaffold_4170_segment0	AUGUSTUS	transcript	4214009	4227614	0.01	+	.	g1.t1
+scaffold_4170_segment0	AUGUSTUS	tss	4214009	4214009	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	exon	4214009	4214371	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	exon	4218062	4218109	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	start_codon	4218089	4218091	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	intron	4218110	4220240	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	intron	4220387	4224612	0.19	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	intron	4224744	4227344	0.05	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	CDS	4218089	4218109	0.01	+	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	CDS	4220241	4220386	0.01	+	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	exon	4220241	4220386	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	CDS	4224613	4224743	0.77	+	1	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	exon	4224613	4224743	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	CDS	4227345	4227385	0.05	+	2	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	exon	4227345	4227614	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	stop_codon	4227383	4227385	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	tts	4227614	4227614	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	protein_match	4218101	4218109	12.1	+	0	target "unknown_A[1..3]"; target_start 4; transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	protein_match	4220241	4220386	7.83	+	2	target "unknown_A[4..52]"; target_start 3; transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	protein_match	4224613	4224613	1	+	1	target "unknown_A[52..52]"; target_start 4; transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	protein_match	4224614	4224743	14	+	0	target "unknown_B[1..44]"; target_start 56; transcript_id "g1.t1"; gene_id "g1";
+scaffold_4170_segment0	AUGUSTUS	protein_match	4227345	4227361	13.5	+	2	target "unknown_B[44..49]"; target_start 56; transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MVASKKQKKQMESINSRLQLVMKSGKYHLGFKQTLKALRQGKGKLVLLASNTPPLRKSEIEYYAMLAKTGVHHYTGNN
+# IELGTACGKYFRVCTLCITDPGDSDIIRSMPSEA]
+# sequence of block unknown_A     4 [KKQKKQMESINSRLQLVMKSGKYHLGFKQTLKALRQGKGKLVLLASNTPPLR] 56
+# sequence of block unknown_B    56 [KSEIEYYAMLAKTGVHHYTGNNIELGTACGKYFRVCTLCITDPGDSDII] 105
+# end gene g1
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G0W6G.prfl --predictionStart=4211154 --predictionEnd=4233835 --species=fly scaffold_4170_segment0hystera_busco_meta_.temp

@@ -1,0 +1,10 @@
+368_pilon_pilon_pilon	AUGUSTUS	gene	385930	393638	0.01	-	.	g1
+368_pilon_pilon_pilon	AUGUSTUS	transcript	385930	393638	0.01	-	.	g1.t1
+368_pilon_pilon_pilon	AUGUSTUS	tts	385930	385930	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+368_pilon_pilon_pilon	AUGUSTUS	exon	385930	386632	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+368_pilon_pilon_pilon	AUGUSTUS	exon	391103	393100	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+368_pilon_pilon_pilon	AUGUSTUS	stop_codon	391134	391136	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+368_pilon_pilon_pilon	AUGUSTUS	CDS	391134	393047	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+368_pilon_pilon_pilon	AUGUSTUS	start_codon	393045	393047	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+368_pilon_pilon_pilon	AUGUSTUS	exon	393611	393638	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+368_pilon_pilon_pilon	AUGUSTUS	tss	393638	393638	.	-	.	transcript_id "g1.t1"; gene_id "g1";

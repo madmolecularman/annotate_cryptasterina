@@ -1,0 +1,26 @@
+contig_2628_segment0	AUGUSTUS	gene	89195	112501	0.02	+	.	g3
+contig_2628_segment0	AUGUSTUS	transcript	89195	112501	0.02	+	.	g3.t1
+contig_2628_segment0	AUGUSTUS	tss	89195	89195	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	exon	89195	89262	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	exon	89313	89429	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	start_codon	89339	89341	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	intron	89430	100045	0.51	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	intron	100225	101786	0.97	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	intron	101876	103302	0.76	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	intron	103409	103461	0.66	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	intron	103505	104000	0.66	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	intron	104111	104691	0.64	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	intron	104755	112501	0.06	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	CDS	89339	89429	0.74	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	CDS	100046	100224	0.66	+	2	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	exon	100046	100224	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	CDS	101787	101875	0.98	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	exon	101787	101875	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	CDS	103303	103408	0.53	+	1	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	exon	103303	103408	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	CDS	103462	103504	0.66	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	exon	103462	103504	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	CDS	104001	104110	0.66	+	2	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	exon	104001	104110	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	CDS	104692	104754	0.88	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_2628_segment0	AUGUSTUS	exon	104692	104754	.	+	.	transcript_id "g3.t1"; gene_id "g3";

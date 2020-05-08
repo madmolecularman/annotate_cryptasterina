@@ -1,0 +1,20 @@
+contig_3916_segment0	AUGUSTUS	gene	462589	467737	0.01	-	.	g2
+contig_3916_segment0	AUGUSTUS	transcript	462589	467737	0.01	-	.	g2.t1
+contig_3916_segment0	AUGUSTUS	tts	462589	462589	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	exon	462589	463421	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	stop_codon	463294	463296	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	intron	463422	464857	0.08	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	intron	464946	467332	0.13	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	CDS	463294	463421	0.08	-	2	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	CDS	464858	464945	0.38	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	exon	464858	464945	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	CDS	467333	467443	0.13	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	exon	467333	467473	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	start_codon	467441	467443	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	exon	467646	467737	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	tss	467737	467737	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	protein_match	463297	463317	17.7	-	0	target "unknown_C[1..7]"; target_start 101; transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	protein_match	463324	463421	13.4	-	2	target "unknown_B[49..81]"; target_start 18; transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	protein_match	464858	464945	9.13	-	0	target "unknown_B[20..49]"; target_start 18; transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	protein_match	467333	467389	8.96	-	0	target "unknown_B[1..19]"; target_start 18; transcript_id "g2.t1"; gene_id "g2";
+contig_3916_segment0	AUGUSTUS	protein_match	467393	467437	8.79	-	0	target "unknown_A[1..15]"; target_start 2; transcript_id "g2.t1"; gene_id "g2";

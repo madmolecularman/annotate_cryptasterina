@@ -1,0 +1,21 @@
+contig_1463_pilon_pilon_pilon	AUGUSTUS	gene	94614	102456	0.01	-	.	g1
+contig_1463_pilon_pilon_pilon	AUGUSTUS	transcript	94614	102456	0.01	-	.	g1.t1
+contig_1463_pilon_pilon_pilon	AUGUSTUS	tts	94614	94614	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	exon	94614	94959	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	stop_codon	94814	94816	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	intron	94960	96014	0.93	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	intron	96160	98248	0.66	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	intron	98357	98415	0.68	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	intron	98518	101810	0.72	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	CDS	94814	94959	0.94	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	CDS	96015	96159	0.87	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	exon	96015	96159	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	CDS	98249	98356	0.68	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	exon	98249	98356	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	CDS	98416	98517	0.85	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	exon	98416	98517	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	CDS	101811	101858	0.82	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	exon	101811	101862	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	start_codon	101856	101858	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	exon	102119	102456	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1463_pilon_pilon_pilon	AUGUSTUS	tss	102456	102456	.	-	.	transcript_id "g1.t1"; gene_id "g1";

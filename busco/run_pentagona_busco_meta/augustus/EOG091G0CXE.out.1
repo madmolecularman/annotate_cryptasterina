@@ -1,0 +1,48 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[0..400]--> unknown_A (51) <--[7..11]--> unknown_C (51) <--[0..3]--> unknown_D (24) <--[34..243]--
+# fly version. Using default transition matrix.
+# Looks like contig_5897_pilon_pilon_pilonpentagona_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 19654, name = contig_5897_pilon_pilon_pilon) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+contig_5897_pilon_pilon_pilon	AUGUSTUS	gene	590468	593520	0.01	-	.	g1
+contig_5897_pilon_pilon_pilon	AUGUSTUS	transcript	590468	593520	0.01	-	.	g1.t1
+contig_5897_pilon_pilon_pilon	AUGUSTUS	tts	590468	590468	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	exon	590468	591345	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	stop_codon	590548	590550	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	intron	591346	591744	0.95	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	intron	592017	592739	0.89	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	CDS	590548	591345	0.95	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	CDS	591745	592016	0.94	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	exon	591745	592016	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	CDS	592740	592857	0.88	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	exon	592740	592980	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	start_codon	592855	592857	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	exon	593397	593520	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	tss	593520	593520	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	protein_match	590989	591060	5.48	-	0	target "unknown_D[1..24]"; target_start 225; transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	protein_match	591070	591222	3.31	-	0	target "unknown_C[1..51]"; target_start 171; transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	protein_match	591247	591345	1.88	-	0	target "unknown_A[19..51]"; target_start 112; transcript_id "g1.t1"; gene_id "g1";
+contig_5897_pilon_pilon_pilon	AUGUSTUS	protein_match	591745	591798	3.6	-	0	target "unknown_A[1..18]"; target_start 112; transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MQRIAYEADSGWVHPFKSDCGAWRWYGVGMEYNATFTGLGMARQFDFQKLTVIRALRTVSTSSSGAAESFPGGQGRSA
+# GTGGGVPLADTGAKTGLLNRLRSNGRVLSFVQSYEDVVGIGDVKRAQKRVTQFEEQFMEIREQVKKSAQNLRIVQAELRAIRTKLDRTPRNDTKFLEY
+# ATEEHLAIQKERKLDEEHDLLEDAERNMFAKLSAAVRESHERQRSQEERTKYWGIIGSIVGTVIGLVGSTAVNQKRMRELRSMVGDLQKDIGQNGQLR
+# DLQGLVMDIRTAINSSSSQSNPEELTTALERLTKQQQEGLDSQEKSLTRILKHQEGLLLKEMEGVRRFAAVGAGDMTTLEELVNNAEQKLEWEMKMST
+# LSTVVFIYGAFALTLPILYSIFK]
+# sequence of block unknown_D   225 [TKYWGIIGSIVGTVIGLVGSTAVN] 249
+# sequence of block unknown_C   171 [KFLEYATEEHLAIQKERKLDEEHDLLEDAERNMFAKLSAAVRESHERQRSQ] 222
+# sequence of block unknown_A   112 [EDVVGIGDVKRAQKRVTQFEEQFMEIREQVKKSAQNLRIVQAELRAIRTKL] 163
+# end gene g1
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G0CXE.prfl --predictionStart=581216 --predictionEnd=600869 --species=fly contig_5897_pilon_pilon_pilonpentagona_busco_meta_.temp

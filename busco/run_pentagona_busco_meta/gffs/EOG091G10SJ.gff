@@ -1,0 +1,18 @@
+contig_1908_pilon_pilon_pilon	AUGUSTUS	gene	794636	801786	0.01	-	.	g1
+contig_1908_pilon_pilon_pilon	AUGUSTUS	transcript	794636	801786	0.01	-	.	g1.t1
+contig_1908_pilon_pilon_pilon	AUGUSTUS	tts	794636	794636	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1908_pilon_pilon_pilon	AUGUSTUS	exon	794636	794841	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1908_pilon_pilon_pilon	AUGUSTUS	stop_codon	794742	794744	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1908_pilon_pilon_pilon	AUGUSTUS	intron	794842	795903	0.02	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1908_pilon_pilon_pilon	AUGUSTUS	intron	796073	801521	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1908_pilon_pilon_pilon	AUGUSTUS	CDS	794742	794841	0.07	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_1908_pilon_pilon_pilon	AUGUSTUS	CDS	795904	796072	0.07	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_1908_pilon_pilon_pilon	AUGUSTUS	exon	795904	796072	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1908_pilon_pilon_pilon	AUGUSTUS	CDS	801522	801633	0.01	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1908_pilon_pilon_pilon	AUGUSTUS	exon	801522	801786	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1908_pilon_pilon_pilon	AUGUSTUS	start_codon	801631	801633	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1908_pilon_pilon_pilon	AUGUSTUS	tss	801786	801786	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1908_pilon_pilon_pilon	AUGUSTUS	protein_match	794772	794841	5.84	-	1	target "unknown_D[17..40]"; target_start 77; transcript_id "g1.t1"; gene_id "g1";
+contig_1908_pilon_pilon_pilon	AUGUSTUS	protein_match	795904	795953	6.73	-	0	target "unknown_D[1..17]"; target_start 77; transcript_id "g1.t1"; gene_id "g1";
+contig_1908_pilon_pilon_pilon	AUGUSTUS	protein_match	795969	796070	5.99	-	0	target "unknown_C[1..34]"; target_start 38; transcript_id "g1.t1"; gene_id "g1";
+contig_1908_pilon_pilon_pilon	AUGUSTUS	protein_match	801556	801585	4.44	-	0	target "unknown_B[1..10]"; target_start 16; transcript_id "g1.t1"; gene_id "g1";

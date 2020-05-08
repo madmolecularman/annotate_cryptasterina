@@ -1,0 +1,35 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[5..552]--> unknown_A (38) <--[0..1]--> unknown_B (44) <--[0..19]--> unknown_C (23) <--[0..77]--
+# fly version. Using default transition matrix.
+# Looks like 122_pilon_pilon_pilonpentagona_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 19696, name = 122_pilon_pilon_pilon) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+122_pilon_pilon_pilon	AUGUSTUS	gene	950503	956978	0.03	+	.	g1
+122_pilon_pilon_pilon	AUGUSTUS	transcript	950503	956978	0.03	+	.	g1.t1
+122_pilon_pilon_pilon	AUGUSTUS	tss	950503	950503	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+122_pilon_pilon_pilon	AUGUSTUS	exon	950503	951220	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+122_pilon_pilon_pilon	AUGUSTUS	exon	955466	956978	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+122_pilon_pilon_pilon	AUGUSTUS	start_codon	955502	955504	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+122_pilon_pilon_pilon	AUGUSTUS	CDS	955502	956656	0.74	+	0	transcript_id "g1.t1"; gene_id "g1";
+122_pilon_pilon_pilon	AUGUSTUS	stop_codon	956654	956656	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+122_pilon_pilon_pilon	AUGUSTUS	tts	956978	956978	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MASVAVTANLLGIGRGHGLLSRTLLVPPPQVTTPMSPGGITAVSGNGSPILDHHTTGSYSVPSPSPTLRENFTFTRAT
+# TSPEGRKDRSLVLGVEGDQPRAVTSKVSGGLSIKTQQQTTESCQLSPVSPHSVLGSPTVPSSETPTIEPAARMQHSPHVTWTFPTVVNSPPATQGLSE
+# LQNSPTFTIHPRSQNVYCSVRQAGFAPLIERAAGPPKVIRRMFTNSRERWRQQNVNSGFSELRKMLPTHPIDKKLSKNEILRLAIRYINFLEELRDEQ
+# IAQDAATARAKGEMDSEECSPSHTYCKEERVAVSPPTISVHNTETIIGRQTMRPRDSRSSSESGIGDTESLCGSAGSGCDSHGSVYFSDDNVGSVDSS
+# AWFSSPGSNQSL]
+# end gene g1
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G167Y.prfl --predictionStart=946428 --predictionEnd=966123 --species=fly 122_pilon_pilon_pilonpentagona_busco_meta_.temp

@@ -1,0 +1,53 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[0..44]--> unknown_A (52) <--[0..1]--> unknown_B (23) <--[1..5]--> unknown_C (19) <--[0..60]--> unknown_D (7) <--[0..8]--> unknown_E (13) <--[8..22]--> unknown_F (34) <--[4..6]--> unknown_G (15) <--[0..5]--> unknown_H (23) <--[2..9]--> unknown_I (49) <--[0..1434]--
+# fly version. Using default transition matrix.
+# Looks like scaffold_2262_segment0hystera_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 18906, name = scaffold_2262_segment0) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+scaffold_2262_segment0	AUGUSTUS	gene	2908005	2912361	0.01	+	.	g1
+scaffold_2262_segment0	AUGUSTUS	transcript	2908005	2912361	0.01	+	.	g1.t1
+scaffold_2262_segment0	AUGUSTUS	tss	2908005	2908005	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	exon	2908005	2908154	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	exon	2909651	2909703	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	exon	2911237	2912361	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	start_codon	2911239	2911241	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	CDS	2911239	2912087	0.01	+	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	stop_codon	2912085	2912087	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	tts	2912361	2912361	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	protein_match	2911254	2911409	5.28	+	0	target "unknown_A[1..52]"; target_start 5; transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	protein_match	2911413	2911481	4.64	+	0	target "unknown_B[1..23]"; target_start 58; transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	protein_match	2911494	2911550	3.44	+	0	target "unknown_C[1..19]"; target_start 85; transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	protein_match	2911551	2911571	7.22	+	0	target "unknown_D[1..7]"; target_start 104; transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	protein_match	2911572	2911610	7.4	+	0	target "unknown_E[1..13]"; target_start 111; transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	protein_match	2911659	2911760	6.04	+	0	target "unknown_F[1..34]"; target_start 140; transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	protein_match	2911773	2911817	5.74	+	0	target "unknown_G[1..15]"; target_start 178; transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	protein_match	2911818	2911886	6.77	+	0	target "unknown_H[1..23]"; target_start 193; transcript_id "g1.t1"; gene_id "g1";
+scaffold_2262_segment0	AUGUSTUS	protein_match	2911902	2912048	4.29	+	0	target "unknown_I[1..49]"; target_start 221; transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSEQTPPLHVALVSGALAGTVVDASLFPLDTIKTRLQSSAGFLKAGGFRGIYSGLGPAVLGSAPTAGVFFCTYEFIKQ
+# LGSLLGLTGRSCEPITHMTAASLGEVTACLIRVPVEVVKQRAQASQNASIHIFKSVLRKEGVRGLYRGYFSTVVREIPFSIIQFPLWELFKFRWGVWQ
+# GRPVEAWQSAVCGALAGGISAGLTTPLDVAKTRIMLAAKDSVTAKGNIASVLKDIKGTSGVRGLFAGVVPRVLWISVGGAIFLGVYEKGKISLLTLES
+# YQKHPTRS]
+# sequence of block unknown_A     5 [PPLHVALVSGALAGTVVDASLFPLDTIKTRLQSSAGFLKAGGFRGIYSGLGP] 57
+# sequence of block unknown_B    58 [VLGSAPTAGVFFCTYEFIKQLGS] 81
+# sequence of block unknown_C    85 [TGRSCEPITHMTAASLGEV] 104
+# sequence of block unknown_D   104 [TACLIRV] 111
+# sequence of block unknown_E   111 [PVEVVKQRAQASQ] 124
+# sequence of block unknown_F   140 [RGLYRGYFSTVVREIPFSIIQFPLWELFKFRWGV] 174
+# sequence of block unknown_G   178 [PVEAWQSAVCGALAG] 193
+# sequence of block unknown_H   193 [GISAGLTTPLDVAKTRIMLAAKD] 216
+# sequence of block unknown_I   221 [GNIASVLKDIKGTSGVRGLFAGVVPRVLWISVGGAIFLGVYEKGKISLL] 270
+# end gene g1
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G0G6Z.prfl --predictionStart=2902230 --predictionEnd=2921135 --species=fly scaffold_2262_segment0hystera_busco_meta_.temp

@@ -1,0 +1,26 @@
+contig_109_segment0	AUGUSTUS	gene	2877671	2891465	0.03	-	.	g1
+contig_109_segment0	AUGUSTUS	transcript	2877671	2891465	0.03	-	.	g1.t1
+contig_109_segment0	AUGUSTUS	intron	2877671	2885523	0.12	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	intron	2885644	2886763	0.94	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	intron	2886929	2887544	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	intron	2887707	2887922	0.9	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	intron	2888079	2888636	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	intron	2888862	2890306	0.94	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	intron	2890480	2890583	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	CDS	2885524	2885643	0.99	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	exon	2885524	2885643	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	CDS	2886764	2886928	0.95	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	exon	2886764	2886928	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	CDS	2887545	2887706	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	exon	2887545	2887706	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	CDS	2887923	2888078	0.9	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	exon	2887923	2888078	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	CDS	2888637	2888861	0.94	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	exon	2888637	2888861	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	CDS	2890307	2890479	0.99	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	exon	2890307	2890479	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	CDS	2890584	2890623	0.59	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	exon	2890584	2890665	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	start_codon	2890621	2890623	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	exon	2891120	2891465	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_109_segment0	AUGUSTUS	tss	2891465	2891465	.	-	.	transcript_id "g1.t1"; gene_id "g1";

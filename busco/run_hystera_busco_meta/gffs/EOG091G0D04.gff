@@ -1,0 +1,37 @@
+contig_2244_segment0	AUGUSTUS	gene	1023523	1034272	0.01	+	.	g1
+contig_2244_segment0	AUGUSTUS	transcript	1023523	1034272	0.01	+	.	g1.t1
+contig_2244_segment0	AUGUSTUS	tss	1023523	1023523	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	exon	1023523	1023816	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	exon	1024607	1024610	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	start_codon	1024608	1024610	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	intron	1024611	1024694	0.65	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	intron	1024856	1026373	0.91	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	intron	1026543	1027796	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	intron	1028045	1031133	0.76	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	intron	1031348	1032677	0.58	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	CDS	1024608	1024610	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	CDS	1024695	1024855	0.65	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	exon	1024695	1024855	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	CDS	1026374	1026542	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	exon	1026374	1026542	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	CDS	1027797	1028044	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	exon	1027797	1028044	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	CDS	1031134	1031347	0.99	+	1	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	exon	1031134	1031347	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	CDS	1032678	1032806	0.58	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	exon	1032678	1034272	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	stop_codon	1032804	1032806	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	tts	1034272	1034272	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	1024809	1024855	2	+	0	target "unknown_A[1..16]"; target_start 39; transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	1026374	1026407	7.06	+	1	target "unknown_A[16..27]"; target_start 39; transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	1026408	1026446	7.07	+	0	target "unknown_B[1..13]"; target_start 66; transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	1026447	1026539	10.6	+	0	target "unknown_C[1..31]"; target_start 79; transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	1026540	1026542	10.3	+	0	target "unknown_D[1..1]"; target_start 110; transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	1027797	1027811	7.7	+	0	target "unknown_D[2..6]"; target_start 110; transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	1027812	1027910	6.68	+	0	target "unknown_E[1..33]"; target_start 116; transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	1027950	1028030	5.16	+	0	target "unknown_F[1..27]"; target_start 162; transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	1028040	1028044	1.12	+	0	target "unknown_G[1..2]"; target_start 192; transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	1031134	1031194	7.8	+	1	target "unknown_G[2..22]"; target_start 192; transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	1031225	1031254	4.3	+	0	target "unknown_H[1..10]"; target_start 224; transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	1031255	1031287	6.5	+	0	target "unknown_I[1..11]"; target_start 234; transcript_id "g1.t1"; gene_id "g1";
+contig_2244_segment0	AUGUSTUS	protein_match	1031291	1031347	7.15	+	0	target "unknown_J[1..19]"; target_start 246; transcript_id "g1.t1"; gene_id "g1";

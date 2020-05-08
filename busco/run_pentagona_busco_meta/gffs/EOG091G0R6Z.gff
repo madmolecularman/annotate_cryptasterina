@@ -1,0 +1,24 @@
+1990_pilon_pilon_pilon	AUGUSTUS	gene	696036	702216	0.01	-	.	g2
+1990_pilon_pilon_pilon	AUGUSTUS	transcript	696036	702216	0.01	-	.	g2.t1
+1990_pilon_pilon_pilon	AUGUSTUS	tts	696036	696036	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	exon	696036	696237	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	stop_codon	696134	696136	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	intron	696238	696687	0.32	-	.	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	intron	696902	697693	0.4	-	.	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	intron	697900	700553	0.14	-	.	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	CDS	696134	696237	0.32	-	2	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	CDS	696688	696901	0.92	-	0	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	exon	696688	696901	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	CDS	697694	697899	0.94	-	2	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	exon	697694	697899	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	CDS	700554	700599	0.12	-	0	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	exon	700554	700607	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	start_codon	700597	700599	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	exon	702168	702216	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	tss	702216	702216	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	protein_match	696143	696237	8.56	-	2	target "unknown_C[19..50]"; target_start 137; transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	protein_match	696688	696742	7.27	-	0	target "unknown_C[1..19]"; target_start 137; transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	protein_match	696749	696901	6.78	-	0	target "unknown_B[34..84]"; target_start 51; transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	protein_match	697694	697792	7.15	-	0	target "unknown_B[1..33]"; target_start 51; transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	protein_match	697796	697899	4.56	-	2	target "unknown_A[16..50]"; target_start 0; transcript_id "g2.t1"; gene_id "g2";
+1990_pilon_pilon_pilon	AUGUSTUS	protein_match	700554	700599	4.92	-	0	target "unknown_A[1..16]"; target_start 0; transcript_id "g2.t1"; gene_id "g2";

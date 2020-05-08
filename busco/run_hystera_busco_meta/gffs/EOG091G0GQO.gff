@@ -1,0 +1,33 @@
+scaffold_812_segment0	AUGUSTUS	gene	879410	887876	0.01	-	.	g2
+scaffold_812_segment0	AUGUSTUS	transcript	879410	887876	0.01	-	.	g2.t1
+scaffold_812_segment0	AUGUSTUS	tts	879410	879410	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	exon	879410	879761	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	stop_codon	879624	879626	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	intron	879762	880812	0.32	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	intron	880929	881614	0.29	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	intron	881809	883676	0.01	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	intron	883775	884719	0.01	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	intron	884911	886447	0.01	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	CDS	879624	879761	0.38	-	0	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	CDS	880813	880928	0.34	-	2	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	exon	880813	880928	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	CDS	881615	881808	0.03	-	1	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	exon	881615	881808	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	CDS	883677	883774	0.01	-	0	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	exon	883677	883774	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	CDS	884720	884910	0.01	-	2	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	exon	884720	884910	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	CDS	886448	886496	0.65	-	0	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	exon	886448	886553	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	start_codon	886494	886496	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	exon	887332	887876	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	tss	887876	887876	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	protein_match	879651	879758	4.45	-	0	target "unknown_E[1..36]"; target_start 217; transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	protein_match	879759	879761	3.25	-	0	target "unknown_D[40..40]"; target_start 177; transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	protein_match	880813	880928	3.84	-	2	target "unknown_D[1..39]"; target_start 177; transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	protein_match	881615	881615	1	-	0	target "unknown_D[1..1]"; target_start 177; transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	protein_match	881616	881798	4.05	-	0	target "unknown_C[1..61]"; target_start 116; transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	protein_match	881799	881808	3.19	-	1	target "unknown_B[13..16]"; target_start 100; transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	protein_match	883677	883714	6.04	-	0	target "unknown_B[1..13]"; target_start 100; transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	protein_match	883733	883774	7.87	-	0	target "unknown_A[49..62]"; target_start 32; transcript_id "g2.t1"; gene_id "g2";
+scaffold_812_segment0	AUGUSTUS	protein_match	884720	884863	6.24	-	0	target "unknown_A[1..48]"; target_start 32; transcript_id "g2.t1"; gene_id "g2";

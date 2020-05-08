@@ -1,0 +1,32 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[23..215]--> unknown_C (14) <--[0..1]--> unknown_D (15) <--[3..17]--> unknown_E (13) <--[0..2]--> unknown_F (47) <--[0..1]--> unknown_G (17) <--[0..1]--> unknown_H (8) <--[4..13]--> unknown_I (24) <--[0..1]--> unknown_J (31) <--[0..1]--> unknown_K (11) <--[4..78]--
+# fly version. Using default transition matrix.
+# Looks like scaffold_9220_pilon_pilon_pilonpentagona_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 19747, name = scaffold_9220_pilon_pilon_pilon) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+scaffold_9220_pilon_pilon_pilon	AUGUSTUS	gene	394808	399185	0.13	+	.	g1
+scaffold_9220_pilon_pilon_pilon	AUGUSTUS	transcript	394808	399185	0.13	+	.	g1.t1
+scaffold_9220_pilon_pilon_pilon	AUGUSTUS	CDS	394808	395755	0.82	+	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_9220_pilon_pilon_pilon	AUGUSTUS	exon	394808	396120	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_9220_pilon_pilon_pilon	AUGUSTUS	stop_codon	395753	395755	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+scaffold_9220_pilon_pilon_pilon	AUGUSTUS	exon	398215	399185	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+scaffold_9220_pilon_pilon_pilon	AUGUSTUS	tts	399185	399185	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [KTAECCKDTEYRKTAECCKDTEYHKTAECCKDTEYRKTAECCKDTEYHKTAECCKDTEYRKTAECCKDTEYHKTAECC
+# KDTEYRKTQNAAKTQNTTKPQNAAKTQNTAKPQNAAKTQNTTKPQNAAKTQNTAKPQNAAKTQNTTKPQNAAKTQNTAKPQNAAKTQNTTKPQNAAKT
+# QNTTKPQNAAKTQNTTKPQNDAKTQNTTKPQNDAKTQNTTKPQSGAKTQNTTKPQNDAKTQNTTKPQNDAKTQNTTKPQSGAKPQNATKLQKDKQARQ
+# EKISQNWKMLQRRRMQQKCRMPQNGRMPQRQRIGHKTTECS]
+# end gene g1
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G0K0H.prfl --predictionStart=394808 --predictionEnd=414554 --species=fly scaffold_9220_pilon_pilon_pilonpentagona_busco_meta_.temp

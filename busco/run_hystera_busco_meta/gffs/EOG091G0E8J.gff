@@ -1,0 +1,30 @@
+contig_3738_segment0	AUGUSTUS	gene	1676321	1691269	0.01	-	.	g2
+contig_3738_segment0	AUGUSTUS	transcript	1676321	1691269	0.01	-	.	g2.t1
+contig_3738_segment0	AUGUSTUS	tts	1676321	1676321	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	exon	1676321	1676716	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	stop_codon	1676615	1676617	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	intron	1676717	1680802	0.54	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	intron	1680989	1682086	0.81	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	intron	1682210	1682677	0.89	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	intron	1682882	1683687	0.96	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	intron	1683796	1684551	0.47	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	intron	1684630	1684740	0.37	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	intron	1684787	1688308	0.09	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	CDS	1676615	1676716	0.41	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	CDS	1680803	1680988	0.82	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	exon	1680803	1680988	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	CDS	1682087	1682209	0.96	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	exon	1682087	1682209	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	CDS	1682678	1682881	0.91	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	exon	1682678	1682881	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	CDS	1683688	1683795	0.92	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	exon	1683688	1683795	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	CDS	1684552	1684629	0.56	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	exon	1684552	1684629	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	CDS	1684741	1684786	0.21	-	1	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	exon	1684741	1684786	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	CDS	1688309	1688382	0.09	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	exon	1688309	1688755	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	start_codon	1688380	1688382	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	exon	1690919	1691269	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_3738_segment0	AUGUSTUS	tss	1691269	1691269	.	-	.	transcript_id "g2.t1"; gene_id "g2";

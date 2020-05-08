@@ -1,0 +1,22 @@
+contig_1276_segment0	AUGUSTUS	gene	1191105	1196575	0.01	+	.	g3
+contig_1276_segment0	AUGUSTUS	transcript	1191105	1196575	0.01	+	.	g3.t1
+contig_1276_segment0	AUGUSTUS	tss	1191105	1191105	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	exon	1191105	1191386	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	start_codon	1191278	1191280	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	intron	1191387	1193197	0.11	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	intron	1193245	1194516	0.03	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	intron	1194637	1196184	0.01	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	CDS	1191278	1191386	0.11	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	CDS	1193198	1193244	0.06	+	2	transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	exon	1193198	1193244	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	CDS	1194517	1194636	0.02	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	exon	1194517	1194636	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	CDS	1196185	1196343	0.01	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	exon	1196185	1196575	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	stop_codon	1196341	1196343	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	tts	1196575	1196575	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	protein_match	1191386	1191386	1	+	0	target "unknown_A[1..1]"; target_start 36; transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	protein_match	1193198	1193244	5.88	+	1	target "unknown_A[1..17]"; target_start 35; transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	protein_match	1194517	1194636	9.6	+	2	target "unknown_A[17..57]"; target_start 35; transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	protein_match	1196185	1196322	9.86	+	0	target "unknown_A[57..102]"; target_start 36; transcript_id "g3.t1"; gene_id "g3";
+contig_1276_segment0	AUGUSTUS	protein_match	1196323	1196340	9.67	+	0	target "unknown_B[1..6]"; target_start 138; transcript_id "g3.t1"; gene_id "g3";

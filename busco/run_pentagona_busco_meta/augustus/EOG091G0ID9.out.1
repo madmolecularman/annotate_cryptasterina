@@ -1,0 +1,50 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[0..182]--> unknown_A (18) <--[4..8]--> unknown_B (25) <--[14..36]--> unknown_C (46) <--[1..4]--> unknown_D (25) <--[0..39]--> unknown_E (21) <--[0..9]--> unknown_F (32) <--[4..53]--> unknown_G (123) <--[0..13]--
+# fly version. Using default transition matrix.
+# Looks like contig_1781_pilon_pilon_pilonpentagona_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 17943, name = contig_1781_pilon_pilon_pilon) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+contig_1781_pilon_pilon_pilon	AUGUSTUS	gene	1	16325	0.01	-	.	g1
+contig_1781_pilon_pilon_pilon	AUGUSTUS	transcript	1	16325	0.01	-	.	g1.t1
+contig_1781_pilon_pilon_pilon	AUGUSTUS	intron	1	3491	0.18	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	intron	3633	6102	0.89	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	intron	6319	8071	0.75	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	intron	8186	8522	0.73	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	intron	8632	8683	0.76	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	intron	8721	8784	0.53	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	CDS	3492	3632	0.9	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	exon	3492	3632	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	CDS	6103	6318	0.78	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	exon	6103	6318	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	CDS	8072	8185	0.81	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	exon	8072	8185	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	CDS	8523	8631	0.73	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	exon	8523	8631	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	CDS	8684	8720	0.53	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	exon	8684	8720	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	CDS	8785	8827	0.54	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	exon	8785	8947	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	start_codon	8825	8827	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	exon	11193	11270	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	exon	12709	12927	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	exon	14922	15814	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	exon	16271	16325	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1781_pilon_pilon_pilon	AUGUSTUS	tss	16325	16325	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGSSPIRVIFAHFHSLNITLFTEQMHSTCTSQKVAMLGPIAKIGEIATFSSNCYIPTTTFVSTVIKRLRERQEPIRLF
+# GETDAEAFFRLRRYEMLAPEINKGLRNDFKEAMDKVDQQYLEEMVKLQGEDVPNRAYDIKYEDDGSTIDDIIEMASGMGQGDDELDCKVIMKYIKFLL
+# KMWAIELNRREEHVKRSNKGKLESATYSQTKAYLQPLLRKLHKQ]
+# end gene g1
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G0ID9.prfl --predictionStart=0 --predictionEnd=17943 --species=fly contig_1781_pilon_pilon_pilonpentagona_busco_meta_.temp

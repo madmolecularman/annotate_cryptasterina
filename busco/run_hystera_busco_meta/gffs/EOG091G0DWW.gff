@@ -1,0 +1,10 @@
+contig_1203_segment0	AUGUSTUS	gene	435366	443785	0.01	-	.	g1
+contig_1203_segment0	AUGUSTUS	transcript	435366	443785	0.01	-	.	g1.t1
+contig_1203_segment0	AUGUSTUS	tts	435366	435366	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1203_segment0	AUGUSTUS	exon	435366	436332	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1203_segment0	AUGUSTUS	exon	441249	443246	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1203_segment0	AUGUSTUS	stop_codon	441280	441282	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1203_segment0	AUGUSTUS	CDS	441280	443193	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1203_segment0	AUGUSTUS	start_codon	443191	443193	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1203_segment0	AUGUSTUS	exon	443757	443785	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1203_segment0	AUGUSTUS	tss	443785	443785	.	-	.	transcript_id "g1.t1"; gene_id "g1";

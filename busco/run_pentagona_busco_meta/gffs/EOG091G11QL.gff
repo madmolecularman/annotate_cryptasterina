@@ -1,0 +1,16 @@
+contig_1965_pilon_pilon_pilon	AUGUSTUS	gene	165674	170181	0.01	-	.	g1
+contig_1965_pilon_pilon_pilon	AUGUSTUS	transcript	165674	170181	0.01	-	.	g1.t1
+contig_1965_pilon_pilon_pilon	AUGUSTUS	tts	165674	165674	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1965_pilon_pilon_pilon	AUGUSTUS	exon	165674	166964	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1965_pilon_pilon_pilon	AUGUSTUS	stop_codon	166755	166757	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1965_pilon_pilon_pilon	AUGUSTUS	intron	166965	168626	0.03	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1965_pilon_pilon_pilon	AUGUSTUS	CDS	166755	166964	0.05	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1965_pilon_pilon_pilon	AUGUSTUS	CDS	168627	168671	0.05	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1965_pilon_pilon_pilon	AUGUSTUS	exon	168627	168705	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1965_pilon_pilon_pilon	AUGUSTUS	start_codon	168669	168671	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1965_pilon_pilon_pilon	AUGUSTUS	exon	170086	170181	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1965_pilon_pilon_pilon	AUGUSTUS	tss	170181	170181	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1965_pilon_pilon_pilon	AUGUSTUS	protein_match	166764	166784	8.03	-	0	target "unknown_C[1..7]"; target_start 75; transcript_id "g1.t1"; gene_id "g1";
+contig_1965_pilon_pilon_pilon	AUGUSTUS	protein_match	166785	166928	7.02	-	0	target "unknown_B[1..48]"; target_start 27; transcript_id "g1.t1"; gene_id "g1";
+contig_1965_pilon_pilon_pilon	AUGUSTUS	protein_match	166935	166964	7.11	-	0	target "unknown_A[14..23]"; target_start 2; transcript_id "g1.t1"; gene_id "g1";
+contig_1965_pilon_pilon_pilon	AUGUSTUS	protein_match	168627	168665	3.81	-	0	target "unknown_A[1..13]"; target_start 2; transcript_id "g1.t1"; gene_id "g1";

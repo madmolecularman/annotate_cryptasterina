@@ -1,0 +1,55 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[0..66]--> unknown_A (30) <--[0..25]--> unknown_B (20) <--[0..3]--> unknown_C (23) <--[1..7]--> unknown_D (30) <--[0..6]--
+# fly version. Using default transition matrix.
+# Looks like contig_2662_segment0hystera_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 29007, name = contig_2662_segment0) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+contig_2662_segment0	AUGUSTUS	gene	4525420	4546978	0.01	-	.	g1
+contig_2662_segment0	AUGUSTUS	transcript	4525420	4546978	0.01	-	.	g1.t1
+contig_2662_segment0	AUGUSTUS	exon	4525420	4525501	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2662_segment0	AUGUSTUS	exon	4531847	4532127	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2662_segment0	AUGUSTUS	stop_codon	4531950	4531952	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2662_segment0	AUGUSTUS	intron	4532128	4542690	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2662_segment0	AUGUSTUS	CDS	4531950	4532127	0.25	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_2662_segment0	AUGUSTUS	CDS	4542691	4542842	0.02	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2662_segment0	AUGUSTUS	exon	4542691	4542867	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2662_segment0	AUGUSTUS	start_codon	4542840	4542842	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_2662_segment0	AUGUSTUS	exon	4546759	4546978	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2662_segment0	AUGUSTUS	tss	4546978	4546978	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_2662_segment0	AUGUSTUS	protein_match	4531962	4532051	12.2	-	0	target "unknown_D[1..30]"; target_start 76; transcript_id "g1.t1"; gene_id "g1";
+contig_2662_segment0	AUGUSTUS	protein_match	4532058	4532126	12.7	-	0	target "unknown_C[1..23]"; target_start 51; transcript_id "g1.t1"; gene_id "g1";
+contig_2662_segment0	AUGUSTUS	protein_match	4532127	4532127	1	-	1	target "unknown_B[20..20]"; target_start 31; transcript_id "g1.t1"; gene_id "g1";
+contig_2662_segment0	AUGUSTUS	protein_match	4542691	4542749	14.5	-	0	target "unknown_B[1..20]"; target_start 31; transcript_id "g1.t1"; gene_id "g1";
+contig_2662_segment0	AUGUSTUS	protein_match	4542750	4542839	10.4	-	0	target "unknown_A[1..30]"; target_start 1; transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MTAEELAKREEEEFNTGPLSVLTQSVKNNTQVLINCRNNKKLLGRVKAFDRHCNMVLENVKEMWTETPKAGKGKKKSK
+# PVNKDRYISKMFLRGDSVILVLRNPLATAKQ]
+# sequence of block unknown_D    76 [SKPVNKDRYISKMFLRGDSVILVLRNPLAT] 106
+# sequence of block unknown_C    51 [HCNMVLENVKEMWTETPKAGKGK] 74
+# sequence of block unknown_B    31 [VLINCRNNKKLLGRVKAFDR] 51
+# sequence of block unknown_A     1 [TAEELAKREEEEFNTGPLSVLTQSVKNNTQ] 31
+# end gene g1
+###
+# start gene g2
+contig_2662_segment0	AUGUSTUS	gene	4550459	4551890	0.02	+	.	g2
+contig_2662_segment0	AUGUSTUS	transcript	4550459	4551890	0.02	+	.	g2.t1
+contig_2662_segment0	AUGUSTUS	tss	4550459	4550459	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2662_segment0	AUGUSTUS	exon	4550459	4550726	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2662_segment0	AUGUSTUS	start_codon	4550538	4550540	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_2662_segment0	AUGUSTUS	intron	4550727	4551890	0.82	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2662_segment0	AUGUSTUS	CDS	4550538	4550726	0.85	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MVHCKSLVSTCGLMTLFVCCVVLMGSGVEAGDKPKKLQIGVKKKVENCEQRSKNGDTLHMHYT]
+# end gene g2
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G0YU6.prfl --predictionStart=4522884 --predictionEnd=4551890 --species=fly contig_2662_segment0hystera_busco_meta_.temp

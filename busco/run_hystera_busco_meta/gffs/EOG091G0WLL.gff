@@ -1,0 +1,18 @@
+contig_1385_segment0:33145-4120302	AUGUSTUS	gene	2318827	2323002	0.01	-	.	g2
+contig_1385_segment0:33145-4120302	AUGUSTUS	transcript	2318827	2323002	0.01	-	.	g2.t1
+contig_1385_segment0:33145-4120302	AUGUSTUS	tts	2318827	2318827	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1385_segment0:33145-4120302	AUGUSTUS	exon	2318827	2319070	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1385_segment0:33145-4120302	AUGUSTUS	stop_codon	2318975	2318977	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1385_segment0:33145-4120302	AUGUSTUS	intron	2319071	2321259	0.01	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1385_segment0:33145-4120302	AUGUSTUS	intron	2321371	2322546	0.67	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1385_segment0:33145-4120302	AUGUSTUS	CDS	2318975	2319070	0.01	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1385_segment0:33145-4120302	AUGUSTUS	CDS	2321260	2321370	0.43	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1385_segment0:33145-4120302	AUGUSTUS	exon	2321260	2321370	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1385_segment0:33145-4120302	AUGUSTUS	CDS	2322547	2322831	0.03	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1385_segment0:33145-4120302	AUGUSTUS	exon	2322547	2323002	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1385_segment0:33145-4120302	AUGUSTUS	start_codon	2322829	2322831	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_1385_segment0:33145-4120302	AUGUSTUS	tss	2323002	2323002	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_1385_segment0:33145-4120302	AUGUSTUS	protein_match	2321263	2321328	7.03	-	0	target "unknown_D[1..22]"; target_start 109; transcript_id "g2.t1"; gene_id "g2";
+contig_1385_segment0:33145-4120302	AUGUSTUS	protein_match	2321329	2321367	6.3	-	0	target "unknown_C[1..13]"; target_start 96; transcript_id "g2.t1"; gene_id "g2";
+contig_1385_segment0:33145-4120302	AUGUSTUS	protein_match	2322547	2322753	10.1	-	0	target "unknown_B[1..69]"; target_start 26; transcript_id "g2.t1"; gene_id "g2";
+contig_1385_segment0:33145-4120302	AUGUSTUS	protein_match	2322754	2322816	11.3	-	0	target "unknown_A[1..21]"; target_start 5; transcript_id "g2.t1"; gene_id "g2";

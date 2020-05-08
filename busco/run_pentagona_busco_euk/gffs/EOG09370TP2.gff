@@ -1,0 +1,30 @@
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	gene	372717	377192	0.01	+	.	g2
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	transcript	372717	377192	0.01	+	.	g2.t1
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	tss	372717	372717	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	exon	372717	373119	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	exon	374008	374304	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	start_codon	374034	374036	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	intron	374305	374737	0.29	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	intron	374815	375886	0.1	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	intron	376140	376622	0.9	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	CDS	374034	374304	0.68	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	CDS	374738	374814	0.37	+	2	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	exon	374738	374814	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	CDS	375887	376139	0.24	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	exon	375887	376139	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	CDS	376623	376957	0.96	+	2	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	exon	376623	377192	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	stop_codon	376955	376957	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	tts	377192	377192	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	protein_match	374076	374141	6.41	+	0	target "unknown_A[1..22]"; target_start 14; transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	protein_match	374175	374282	5.75	+	0	target "unknown_C[1..36]"; target_start 47; transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	protein_match	374283	374304	11.5	+	0	target "unknown_D[1..8]"; target_start 83; transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	protein_match	374738	374766	6.95	+	2	target "unknown_D[8..17]"; target_start 83; transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	protein_match	375896	375937	7.82	+	0	target "unknown_F[1..14]"; target_start 119; transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	protein_match	375989	376012	7.51	+	0	target "unknown_G[1..8]"; target_start 150; transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	protein_match	376019	376111	3.89	+	0	target "unknown_H[1..31]"; target_start 160; transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	protein_match	376112	376139	2.86	+	0	target "unknown_I[1..10]"; target_start 191; transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	protein_match	376623	376630	3.07	+	2	target "unknown_I[10..12]"; target_start 191; transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	protein_match	376637	376789	6.82	+	0	target "unknown_J[1..51]"; target_start 205; transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	protein_match	376790	376819	2.93	+	0	target "unknown_K[1..10]"; target_start 256; transcript_id "g2.t1"; gene_id "g2";
+contig_9418_pilon:15201-463667_pilon_pilon	AUGUSTUS	protein_match	376820	376888	5.45	+	0	target "unknown_L[1..23]"; target_start 266; transcript_id "g2.t1"; gene_id "g2";

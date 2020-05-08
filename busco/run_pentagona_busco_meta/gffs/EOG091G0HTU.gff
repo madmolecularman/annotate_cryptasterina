@@ -1,0 +1,24 @@
+contig_2145_pilon_pilon_pilon	AUGUSTUS	gene	185283	197058	0.02	-	.	g2
+contig_2145_pilon_pilon_pilon	AUGUSTUS	transcript	185283	197058	0.02	-	.	g2.t1
+contig_2145_pilon_pilon_pilon	AUGUSTUS	tts	185283	185283	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	exon	185283	185695	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	stop_codon	185565	185567	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	intron	185696	186210	0.99	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	intron	186321	187037	0.28	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	intron	187247	187804	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	intron	187993	188663	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	intron	188768	190432	0.83	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	CDS	185565	185695	0.99	-	2	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	CDS	186211	186320	1	-	1	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	exon	186211	186320	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	CDS	187038	187246	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	exon	187038	187246	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	CDS	187805	187992	1	-	2	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	exon	187805	187992	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	CDS	188664	188767	0.83	-	1	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	exon	188664	188767	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	CDS	190433	190494	0.93	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	exon	190433	190703	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	start_codon	190492	190494	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	exon	196982	197058	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+contig_2145_pilon_pilon_pilon	AUGUSTUS	tss	197058	197058	.	-	.	transcript_id "g2.t1"; gene_id "g2";

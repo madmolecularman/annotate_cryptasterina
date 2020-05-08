@@ -1,0 +1,48 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /home/jgreen/miniconda3/envs/busco/config/ ...
+# Using protein profile unknown
+# --[0..3]--> unknown_A (14) <--[0..17]--> unknown_B (29) <--[1..33]--> unknown_C (38) <--[0..28]--> unknown_D (49) <--[0..56]--
+# fly version. Using default transition matrix.
+# Looks like contig_1167_pilon_pilon_pilonpentagona_busco_meta_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 19690, name = contig_1167_pilon_pilon_pilon) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+contig_1167_pilon_pilon_pilon	AUGUSTUS	gene	3296620	3311618	0.01	-	.	g1
+contig_1167_pilon_pilon_pilon	AUGUSTUS	transcript	3296620	3311618	0.01	-	.	g1.t1
+contig_1167_pilon_pilon_pilon	AUGUSTUS	tts	3296620	3296620	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	exon	3296620	3297147	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	stop_codon	3297087	3297089	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	intron	3297148	3303812	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	intron	3304019	3304896	0.51	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	intron	3305119	3311537	0.02	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	CDS	3297087	3297147	0.01	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	CDS	3303813	3304018	0.39	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	exon	3303813	3304018	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	CDS	3304897	3305118	0.45	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	exon	3304897	3305118	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	CDS	3311538	3311579	0.03	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	exon	3311538	3311618	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	start_codon	3311577	3311579	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	tss	3311618	3311618	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	protein_match	3303869	3304015	3.67	-	0	target "unknown_D[1..49]"; target_start 89; transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	protein_match	3304897	3305010	7.52	-	0	target "unknown_C[1..38]"; target_start 50; transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	protein_match	3305032	3305118	6.35	-	0	target "unknown_B[1..29]"; target_start 14; transcript_id "g1.t1"; gene_id "g1";
+contig_1167_pilon_pilon_pilon	AUGUSTUS	protein_match	3311538	3311579	11.2	-	0	target "unknown_A[1..14]"; target_start 0; transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MADRVTQLQDAVNQLAEHFCNSVGVLQQSASPAKFPGFEKQGVGQQPEPAQSQEEYSQLFAQLIARTAKDIDVLIDSL
+# PSEESTLELQQASLRSLEADNQEAAAKLAEVVERGEALLVRIQEALGDIAEAQLRTQSAKKDKQAKEVKLEKEETQETTVLFKTVGFGKVMVKIGLFP]
+# sequence of block unknown_D    89 [ASLRSLEADNQEAAAKLAEVVERGEALLVRIQEALGDIAEAQLRTQSAK] 138
+# sequence of block unknown_C    50 [QSQEEYSQLFAQLIARTAKDIDVLIDSLPSEESTLELQ] 88
+# sequence of block unknown_B    14 [LAEHFCNSVGVLQQSASPAKFPGFEKQGV] 43
+# sequence of block unknown_A     0 [MADRVTQLQDAVNQ] 14
+# end gene g1
+###
+# command line:
+# augustus --proteinprofile=/home/jgreen/databases/metazoa_odb9//prfl/EOG091G11IM.prfl --predictionStart=3295184 --predictionEnd=3314873 --species=fly contig_1167_pilon_pilon_pilonpentagona_busco_meta_.temp
