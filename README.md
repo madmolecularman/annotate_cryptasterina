@@ -1,5 +1,5 @@
 # Annotating Cryptasterina
-Code and workflow for annotating Cryptasterina hystera and pentagona
+Github repository to contain my code and workflow for annotating *Cryptasterina* *hystera* and *pentagona*
 
 <br>
 
