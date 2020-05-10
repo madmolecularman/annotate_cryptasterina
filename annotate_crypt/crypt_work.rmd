@@ -1,0 +1,430 @@
+---
+title: "BIO 539 Annotating Cryptasterina"
+author: "Jacob Green"
+date: "5/8/2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Why annotate two sea star genomes: Hystera and Pentagona
+
+Echinoderms are unique in the tree of life when it comes to diversity of lifecycles and modes of reproduction. Across the phylum we find everything from planktotrophy to lecithotrophy and all the nuances in between. Within *Echinodermata*, *Asteroidea*, or Sea stars, exhibit a stunning array of processes when it comes to modes of development, parental investment, larval dispersal, and morphological diversity. On the Austrailian coastline of south east Queensland near Statue Bay two species of Sea star (*Cryptasterina hystera* and *Cryptasterina pentagona*) exhibit a striking and recent divergence in reproductive mode. These two species are morphologically identical, only distinguishable through molecular data and a reproductive period where you will find larvae brooding inside *C. hystera*. The ancestral line of this genus are broadcast spawners and have planktotrophic larvae, but very recently in evolutionary history *C. hystera* began retaining its larvae creating a reproductive rift between itself and *C. pentagona*. In 2019, Dr. Jon Puritz traveled to Statue Bay, Queensland to start a pilot study for defining the molecular dynamics of this shift in reproductive mode. We collected tissue samples for the two species and sequenced nanopore, DNA, and RNA reads. We generated a genome assembly for each species and the scope of this project is to annotate those two assemblies. These annotations will inform preliminary research into the molecular basis of shifting reproductive modes in closely related cogener species of sea stars. 
+
+## Process of Annotation
+
+Names are important, as names give meaning and in many cases derive the function of a thing. This is no different for genomes. Annotations are the descriptions of structural and functional regions of genomic sequences. Annotating open reading frames (ORF), coding and noncoding regions, high repetitive regions, transposable elements, and other functional elements of genomes are integral to translating genetic sequences into data points that can inform research. There are two stages to the process of annotation 1) alignment/mapping 2) gene prediction/naming. Alignment involves matching your seqeuence reads to the genome and mapping involves assigning quality to how the reads matched, where they match to on the genome, and the length of the matched fragment. For gene prediction and naming we take those aligned mapped fragments and align them to sequences in databases that have been curated. These curated databases hold a plethora of information that can then be collated and used in a variety of ways. There are a multitude of programs that can be leveraged to do both. In the scope of this project we will be using BUSCO, dammit, Quast, Diamond, Hisat2, CD-hit-est, Maker, and Braker2 for these processes. 
+
+## Cryptasterina Workflow
+
+How am I structuring this annotation process?
+
+![Programming workflow for annotating genomes](/home/jgreen/cryptasterina/annotate_crypt/crypt_annotate_workflow.png)
+
+<br>
+
+Looks a little something like this. Many of the annotation programs are depedent on the output of other programs.
+
+## Making working directories, locating assemblies, and linking files
+
+Jon provided me with the location of the sequencing reads and assemblies.
+
+First I'll make a directory to house my work
+
+```{bash eval=FALSE, include=TRUE}
+#make the working directory
+mkdir cryptasterina
+```
+
+I will be working with linked versions of the assemblies.
+
+```{bash eval=FALSE, include=TRUE}
+#link command using the -s as symbolic and then the direct path of the directories
+ln -s /RAID_STORAGE2/Shared_Data/Cryptasterina/Hystera/
+ln -s /RAID_STORAGE2/Shared_Data/Cryptasterina/Pentagona/
+```
+
+Now I have all the files located in my home.
+
+What is in these directories?
+```{bash eval=TRUE, include=TRUE}
+#listing out what is in the Pentagona directory. This includes updated information from project work
+ls -alh /home/jgreen/cryptasterina/Pentagona
+```
+
+```{bash eval=TRUE, include=TRUE}
+#listing out what is in the Hystera directory. This includes updated information from project work
+ls /home/jgreen/cryptasterina/Hystera
+```
+
+In these assemblies we find there there are a few difference between the assemblies that we have. Specifically, the Hystera files do not have paired end reads. This is an artifact that our lab sent in the wrong samples and duplicated the Pentagona reads. This disparity caused some issues early in the project. We had to redo many of the initial analysis for hystera. 
+
+## Using Bioconda: the good, the bad, the ugly
+
+Bioconda is a channel for the conda package manager specializing in bioinformatics software. The conda package manager makes installing software a vastly more streamlined process. Im going to be using Bioconda as a way to install tools such as BUSCO, dammit, Quast, Diamond, Hisat2, CD-hit-est, Maker, and Braker2. This allows me to manage the various dependencies for each of these programs.
+
+Typically I would want to create one environment for all of these programs, but they have different dependencies that Bioconda is unable to rectify. I'll be making individual environments for each. 
+
+We have to make sure that we have the correct channels installed for Bioconda to work.
+```{bash eval = FALSE, include=TRUE}
+#move to the home directory
+cd ~ 
+#run the minconda sh script and configure each channel. If the channels are configured already the program will give you a check on the run.
+./Miniconda3-latest-Linux-x86_64.sh
+conda config --add channels defaults
+conda config --add channels conda-forge
+conda config --add channels bioconda
+```
+
+## BUSCO
+
+BUSCO is already installed in my environments but i'll add the code here to install and update
+
+```{bash eval = FALSE, include=TRUE}
+#create the new (-n) environment (busco) and install package (busco)
+conda create -n busco busco
+#update package if new versionw as upload to the bioconda repository
+conda update busco
+```
+
+Make a directory for our busco results
+```{bash eval = FALSE, include=TRUE}
+#move to the cryptasterina working directory
+cd ~/cryptasterina/
+#make directory busco to house results
+mkdir busco
+```
+
+Run the BUSCO python script for the eukaryota and metazoa database
+```{bash eval = FALSE, include=TRUE}
+#python command givne the direct path to the program (.py), the assembly (-i), the database lineage (-l), the mode (-m), and the number of threads (--cpu)
+python /home/jgreen/miniconda3/pkgs/busco-1.2-py27_1/bin/BUSCO_v1.2.py -i /home/jgreen/cryptasterina/Hystera/hystera_assemblyV9_nanopore_only.fasta -o hystera_busco_euk -l /home/jgreen/databases/eukaryota_odb9/ -m genome --cpu 4
+
+python /home/jgreen/miniconda3/pkgs/busco-1.2-py27_1/bin/BUSCO_v1.2.py -i /home/jgreen/cryptasterina/Hystera/hystera_assemblyV9_nanopore_only.fasta -o hystera_busco_meta -l /home/jgreen/databases/metazoa_odb9/ -m genome --cpu 4
+```
+
+Here are the results from the BUSCO runs.
+```{bash busco1}
+#view results from the busco run through the short summary file
+cat ~/cryptasterina/busco/run_hystera_busco_meta/short_summary_hystera_busco_meta
+
+cat ~/cryptasterina/busco/run_hystera_busco_euk/short_summary_hystera_busco
+```
+
+```{bash busco2}
+#view results from the busco run through the short summary file
+cat ~/cryptasterina/busco/run_pentagona_busco_meta/short_summary_pentagona_busco_meta
+
+cat ~/cryptasterina/busco/run_pentagona_busco_euk/short_summary_pentagona_busco
+```
+
+Although this is a nice text format we would like an image, which can be generated by the BUSCO program
+
+Link all the short_summary files into one directory. Move into that directory and then run the following code.
+```{bash eval = FALSE, include=TRUE}
+#run generate plot .py script in the directory containg all short summary files
+generate_plot.py -wd .
+```
+
+Which produces this lovely graph.
+
+\pagebreak
+
+![Hystera and Pentagona Metazoa and Eukaryota BUSCO Results](/home/jgreen/cryptasterina/busco/busco_figure.png)
+
+
+## BUSCO Results
+
+For our assemblies we have done a few things through leveraging BUSCO. When applied in the genome mode BUSCO will leverage two important programs: Augustus and hmmer. Both of these begin to predict or find genes. In this case they are subset for orthologs defined by the lineage dataset. These predictions can be used down the line in other programs such as Maker and Braker2. One of my goals is to figure out how that works and use these gene predictions to prime these other programs. We also have checked our assemblies for quality. Having many single copy complete orthologs and few missing orthologs signals that a genome is well built. There are few duplication and fragments, which will make singular annotation easier. One issue annotation runs into is that if genes are duplicated overannotation occurs and you get many different variation of the same gene or protein. In this case all of our assemblies had > 90 % complete orthologs. Moving forward we can be confident in our assemblies. 
+
+## QUASTing for quality
+
+QUAST (QUality ASsessment Tool) is a neat program that I initially found to assess the assemblies. By digging through the [manual](http://quast.sourceforge.net/docs/manual.html) I discovered that there is a ton more functionality to this program from gene finding to generation circos plots to visualize your data. 
+
+QUAST uses the following for analysis: 
+
+* [BWA](https://github.com/lh3/bwa)
+* [bedtools](http://bedtools.readthedocs.io/)
+* [Minimap2](https://github.com/lh3/minimap2)
+* [Genemark-ES](http://exon.gatech.edu/GeneMark/gmes_instructions.html)
+* [Barrnap](https://github.com/tseemann/barrnap)
+* [BUSCO](http://busco.ezlab.org/)
+
+For visualization:
+* [Icarus](http://quast.sourceforge.net/icarus)
+* [Circos](http://circos.ca/)
+
+I started by installing Quast from bioconda.
+
+```{bash eval = FALSE, include=TRUE}
+conda install -c bioconda quast
+conda create -n quast quast
+```
+
+```{bash eval=FALSE, include=TRUE}
+python /home/jgreen/miniconda3/envs/quast/bin/quast.py pentagona_assemblyV50.fasta --eukaryote --lar
+ge --k-mer-stats --rna-finding --pe1 trimmed.F.fq.gz --pe2 trimmed.R.fq.gz --nanopore nanopore.filtered.trimmed.fq.gz --threads 12
+```
+
+It was taking quite a long time, which is expected because it is aligning not only the trimmed forward and reverse reads but also the nanopore reads. Making so many .sam and.bam files quickly filled up space. It didn't help that QUAST had to rename the forward and reverse reads ( = 64 GB) and also generating two directories that store the same information in a quast/latest/ and quast/results directory. I had two whole directories filled with 1000 GB of .sam and .bam files, so the program ran out of memory.
+
+To circumvent this issue I dug into the quast manual a bit more. There are three arguments of interest that I will be adding (--min-contig 1000 --space-efficient --conserved-genes-finding). 
+
+```{bash eval=FALSE, include=TRUE}
+python /home/jgreen/miniconda3/envs/quast/bin/quast.py pentagona_assemblyV50.fasta --eukaryote --large --k-mer-stats --rna-finding --min-contig 1000 --space-efficient --conserved-genes-finding --pe1 trimmed.F.fq.gz --pe2 trimmed.R.fq.gz --nanopore nanopore.filtered.trimmed.fq.gz --threads 12 
+```
+
+Yet, again though I ran into another space issue. This is a problem when workiong on servers with limited space. The inability to run programs that either are not optimized for large genomes or do not properly take into consideration the memory footprint of smaller working labs decreases the efficiency of a program. I will try taking out the nanopore reads and running. 
+
+```{bash eval=FALSE, include=TRUE}
+python /home/jgreen/miniconda3/envs/quast/bin/quast.py pentagona_assemblyV49.fasta --eukaryote --large --k-mer-stats --rna-finding --min-contig 1000 --space-efficient --conserved-genes-finding --pe1 trimmed.F.fq.gz --pe2 trimmed.R.fq.gz --threads 12 
+```
+
+No luck on this run either. For the time being we will suspend using QUAST for quality assesment. As this project progresses we will be attempting to modify the QUAST runs to more efficiently create and manage .sam files. .sam files can be extremely memory intensive and occupy a lot of server memory space. This should be optimized to run on system with limited memory.
+
+## Weird thought of using dammit?
+
+So I had this odd idea of using dammit. It is a de novo transcriptome annotation pipeline and I was wodnering if it would work in this case. We actually get some real interesting results and create some files that we need for subsequent analysis.
+
+[Dammit](https://dammit.readthedocs.io/en/refactor-1.0/) is a program that I have used in the past for de novo transcriptome assemblies. It provides a thorough annotation by leveraging a myriad of programs that you can find on their site.
+
+Install dammit environment
+```{bash eval = FALSE, include=TRUE}
+conda create -n dammit python=3
+source activate dammit
+conda install dammit
+dammit databases --install --busco-group eukaryota
+```
+
+Commands to run the dammit program
+```{bash eval = FALSE, include=TRUE}
+dammit annotate pentagona_assemblyV59.fasta --busco-group eukaryota
+dammit annotate hystera_assemblyV9_nanopore_only.fasta --busco-group eukaryota
+```
+
+This is going to take a while. So as Camille says "Go grab some coffee" and check your email or read a book.
+
+We have our dammit results for both the Pentagona and Hystera assemblies, which are extensive as shown below
+
+### Pentagona dammit results
+
+```{bash eval=TRUE, include=TRUE}
+ls -alh /home/jgreen/cryptasterina/Pentagona/pentagona_assemblyV49.fasta.dammit/
+```
+
+### Hystera
+```{bash eval=TRUE, include=TRUE}
+ls -alh /home/jgreen/cryptasterina/Hystera/hystera_assemblyV9_nanopore_only.fasta.dammit/
+```
+
+With these files we are going to be moving onto some other gene prediction programs, but lets take a look at some of the results
+
+#Pentagona
+```{bash eval=TRUE, include=TRUE}
+head -n 10 /home/jgreen/cryptasterina/Pentagona/pentagona_assemblyV49.fasta.dammit/pentagona_assemblyV49.fasta.x.sprot.best.csv
+```
+
+This may seem like a bunch of junk, but this contains our first estimate of functional annotations. The sprot database is very general and not specifically geared to annotating sea star genomes, but this can give us an idea of what our annotation profile looks like. Also, Uniprot databases are highly curated giving us high quality information about the annotations that are identified. This information will be used to inform and guide other annotation programs as the project continues. Lets look at how many annotations there are in each of these csv assembly annotation files. 
+
+```{bash eval=TRUE, include=TRUE}
+wc -l /home/jgreen/cryptasterina/Pentagona/pentagona_assemblyV49.fasta.dammit/*.csv*
+```
+
+What we find from this is that the pfam database contains a list of proteins found within these sequences and the .best.csv files contain those proteins that best aligned to the contigs. 
+
+## Continued work
+
+Due to constraints of working server time the rest of the code in this project is an outline of future work. Over the next month I will be continuing this project and attempting to finish a holistic annotation of our Cryptasterina genomes. 
+
+## Diamond
+Diamond is a rapid annotation program that leverages any database you would like to feed it. To make annotation meaningful, using a database that has well described genes is important. We will use the UniProt SwissProt, a database where all the genes annotated will be thororoughly annotated. Follow the links for (Diamond)[https://github.com/bbuchfink/diamond] or (UniProt)[https://www.uniprot.org/] for inqueries. 
+
+For diamond we are going to use the uniprot swiss prot database. 
+```{bash eval = FALSE, include = TRUE}
+wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz
+```
+
+We will create an environment for the Diamond program
+```{bash eval = FALSE, include = TRUE}
+conda create -n diamond diamond
+```
+
+This will generate an annotation file containing proteins from the Uniprot database aligned from the assembly.
+```{bash eval = FALSE, include = TRUE}
+diamond blastx -p 2 -k 1 -e 0.00001 -d /home/jgreen/databases/uniprot_sprot.dmnd -q pentagona_assemblyV49.fasta -o pentagona_diamond
+```
+
+## HiSAT2
+
+Create Hisat2 environment
+```{bash eval = FALSE, include=TRUE}
+conda create -n hisat2 hisat2
+```
+
+Create Hisat2 environment
+```{bash eval = FALSE, include=TRUE}
+nano hisat2_script.sh
+```
+
+Make hisat2 script to build database, align genome, convert sam file to bam, and sort
+```{bash eval = FALSE, include=TRUE}
+#!/bin/bash
+PROC=16
+R1_FQ="$1"
+R2_FQ="$2"
+DBDIR="$3"
+GENOME="$4"
+hisat2-build ${GENOME} ${GENOME%.*}
+hisat2 -p ${PROC} -x ${GENOME%.*} -1 ${R1_FQ%%.*}_val_1.fq.gz -2 ${R2_FQ%%.*}_val_2.fq.gz -S ${R1_FQ%.*}.sam
+samtools view --threads ${PROC} -b -o ${R1_FQ%.*}.bam ${R1_FQ%.*}.sam
+samtools sort -m 7G -o ${R1_FQ%.*}_sorted.bam -T ${R1_FQ%.*}_temp --threads ${PROC} ${R1_FQ%.*}.bam
+java -jar picard.jar CollectAlignmentSummaryMetrics  REFERENCE_SEQUENCE=${DBDIR}/${GENOME} INPUT=${R1_FQ%.*}_sorted.bam OUTPUT=${R1_FQ%.*}.bam_alignment.stats
+```
+
+Run the hisat2 script
+```{bash eval = FALSE, include=TRUE}
+./hisat2_script.sh
+```
+
+## CD-HIT-EST
+
+Create CD-hit environment
+```{bash eval = FALSE, include=TRUE}
+conda create -n cdhit cd-hit
+```
+
+Run cd-hit-est for pentagona and hystera. Then run a cd-hit-est-2d comparison to cluster similarities between hystera and pentagona
+```{bash eval = FALSE, include=TRUE}
+cd-hit-est -i -o -c 0.95 -n 10 -d 0 -M 16000 -T 8
+cd-hit-est -i -o -c 0.95 -n 10 -d 0 -M 16000 -T 8
+cd-hit-est-2d -i -i2 -o  -c 0.95 -n 10 -d 0 -M 16000 -T 8
+```
+
+## Maker 
+
+MAKER is a pipeline for genome annotation that uses existing databases to generate expressed sequence tag (EST) alignments and protein homology. To complete that goal MAKER follows some steps:
+
+* Identifies and masks out repeat elements 
+* Aligns ESTs to the genome
+* Aligns proteins to the genome
+* Produces *ab initio* gene predictions
+* Synthesizes into final annotations
+* Produces quality-values for downstream annotation
+
+MAKER uses the following for annotation: 
+
+* [Perl](https://github.com/tseemann/barrnap)
+* [SNAP](http://homepage.mac.com/iankorf/)
+* [RepeatMasker](http://www.repeatmasker.org/)
+* [Exonerate](http://www.ebi.ac.uk/~guy/exonerate/)
+* [NCBI BLAST](http://www.ncbi.nlm.nih.gov/Ftp/)
+* [Augustus](http://augustus.gobics.de/)
+* [GeneMark-ES](http://exon.gatech.edu/GeneMark/gmes_instructions.html)
+* [FGENESH](http://www.softberry.com/)
+
+```{bash eval = FALSE, include=TRUE}
+conda create -n maker maker genemark-es
+```
+
+For Maker to run we need a few files 
+
+1. fasta file (from Jon)
+2. est file (from CD-hit)
+3. protein file (from diamond run)
+
+We need to make three control files in the directory the we will run the analysis in.
+```{bash eval = FALSE, include=TRUE}
+maker -CTRL
+```
+
+This provides us with these three files. We need to pen them up and check the locations of the programs to make sure this is all correct for our run.
+```{bash eval = TRUE, include=TRUE}
+cat /home/jgreen/cryptasterina/Pentagona/maker_bopts.ctl
+```
+
+```{bash eval = TRUE, include=TRUE}
+cat /home/jgreen/cryptasterina/Pentagona/maker_exe.ctl
+```
+
+```{bash eval = TRUE, include=TRUE}
+cat /home/jgreen/cryptasterina/Pentagona/maker_opts.ctl
+```
+
+Make our script to run the maker program
+```{bash eval = FALSE, include=TRUE}
+nano maker_script.sh
+```
+
+This will contain the following
+```{bash eval = FALSE, include=TRUE}
+#!/bin/bash
+MAKERDIR="Pentagona"
+maker -base ${MAKERDIR} -fix_nucleotides -dsindex
+gff3_merge  -d ${MAKERDIR}.maker.output/${MAKERDIR}_master_datastore_index.log
+fasta_merge -d ${MAKERDIR}.maker.output/${MAKERDIR}_master_datastore_index.log
+```
+
+Run the maker script
+```{bash eval = FALSE, include=TRUE}
+./maker_script.sh
+```
+
+## Braker
+
+BRAKER2 is another "annotation pipeline"" but relies on fully automated training of gene prediction tools. 
+```{bash eval = FALSE, include=TRUE}
+conda create -n braker2 braker2
+```
+
+Create repeat database and set up repeat mode
+```{bash eval = FALSE, include=TRUE}
+BuildDatabase -name pentagona_db -engine ncbi -pa 16 pentagona_assemblyV49.fasta
+RepeatModeler -database pentagona_db -engine ncbi -pa 16
+ln -s RM/consensi.fa.classified
+RepeatMasker -pa 16 -gff -nolow -lib consensi.fa.classified pentagona_assemblyV49.fasta
+```
+
+```{bash eval = FALSE, include=TRUE}
+#!/bin/bash
+#Makes a database and  aligns your sequences into reference.
+#sh runGmap.sh <database name> <folder of database file ending with a "/"> <Fasta file> <query file>
+dbname=$1
+dbloc=$2
+dbfasta=$3
+query=$4
+#Build the database!
+#build the gmap database out of the script if multiple alignments are to be done
+#gmap_build -d $dbname -D $dbloc $dbfasta
+#Align the transcripts!
+gmap -D $dbloc -d $dbname -B 5 -t 16 --input-buffer-size=1000000 --output-buffer-size=1000000 -f samse  $query >${dbname%.*}.${query%.*}.sam
+#Convert the sam to bam
+samtools view --threads 16 -b -o ${dbname%.*}.${query%.*}.bam ${dbname%.*}.${query%.*}.sam
+#sort the bam file
+samtools sort -m 7G -o ${query%.*}_sorted.bam -T ${R1_FQ%.*}_temp --threads 16 ${query%.*}.bam
+```
+
+```{bash eval = FALSE, include=TRUE}
+sh runGmap.sh genome /home/jgreen/cryptasterina/Pentagona pentagona_assemblyV49.fasta pentagona.est.fasta
+```
+
+```{bash eval = FALSE, include=TRUE}
+gmap_build  -d genome pentagona_assemblyV49.fasta
+```
+
+Download genemark-es key
+```{bash eval = FALSE, include=TRUE}
+wget http://exon.gatech.edu/GeneMark/license_download.cgi
+mv gm_key_64 ~/.gm_key
+```
+
+Run Braker 2
+```{bash eval = FALSE, include=TRUE}
+braker.pl --species=pentagona --genome=pentagona_assemblyV49.fasta.masked --bam=  --prot_seq= pentagonaUniProt.annot.fasta --prg=exonerate
+```
+
+
+## This project is ongoing and will continue to be developed!
